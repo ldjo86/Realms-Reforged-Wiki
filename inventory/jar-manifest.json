@@ -1,0 +1,53 @@
+{
+  "main_jar": "golems-materiaux-1.13.1-mc26.1-26.3-fabric.jar",
+  "version": "1.13.1",
+  "platform": "Fabric",
+  "supported_minecraft": [
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2",
+    "26.3"
+  ],
+  "minecraft_module_documented": "26.3",
+  "enchantments": 72,
+  "custom_recipes": 44,
+  "vanilla_recipes": 110,
+  "native_golems": [
+    "gold",
+    "emerald",
+    "diamond",
+    "netherite"
+  ],
+  "registered_custom_entities": [
+    "illageois_demi_squelette",
+    "illageois_zombifie",
+    "demon_commandant",
+    "goule",
+    "illageois_gueri",
+    "maitre_squelette",
+    "maitre_des_zombies",
+    "maitre_creeper"
+  ],
+  "embedded_modules": 5,
+  "bytecode_classes_in_26_3": 235,
+  "json_in_26_3": 783,
+  "french_mojibake_keys": 39,
+  "french_mojibake_remaining": 0,
+  "images_extracted": 82,
+  "missing_entity_localizations": [
+    "illageois_demi_squelette",
+    "illageois_zombifie",
+    "demon_commandant",
+    "goule",
+    "illageois_gueri"
+  ],
+  "public_project": "Realms Reforged",
+  "public_project_url": "https://www.curseforge.com/minecraft/mc-mods/realms-reforged",
+  "main_fabric_mod_id": "golems_materiaux",
+  "nested_fabric_mod_id": "golems_companions",
+  "status": "Static JAR audit; gameplay behavior not tested",
+  "original_jar_sha256": "0171cb102e0ae8705e0b78e5b8855aed4069a7a3a1e8bc21576998fd249c259f",
+  "fully_detailed_recipes": 44,
+  "enchantment_detail_pages_per_language": 72
+}

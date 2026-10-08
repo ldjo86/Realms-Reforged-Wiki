@@ -1,0 +1,849 @@
+[
+  {
+    "id": "ancient_bone",
+    "registry_id": "golems_materiaux:ancient_bone",
+    "file": "data/golems_materiaux/recipe/ancient_bone.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "FF",
+        "FF"
+      ],
+      "key": {
+        "F": "golems_materiaux:bone_fragment"
+      },
+      "result": {
+        "id": "golems_materiaux:ancient_bone",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "charged_tnt",
+    "registry_id": "golems_materiaux:charged_tnt",
+    "file": "data/golems_materiaux/recipe/charged_tnt.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "pattern": [
+        " P ",
+        "PTP",
+        " P "
+      ],
+      "key": {
+        "P": "golems_materiaux:master_tnt_powder",
+        "T": "minecraft:tnt"
+      },
+      "result": {
+        "id": "golems_materiaux:charged_tnt",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "diamond_anvil",
+    "registry_id": "golems_materiaux:diamond_anvil",
+    "file": "data/golems_materiaux/recipe/diamond_anvil.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "key": {
+        "I": "minecraft:diamond_block",
+        "i": "minecraft:diamond"
+      },
+      "pattern": [
+        "III",
+        " i ",
+        "iii"
+      ],
+      "result": {
+        "id": "golems_materiaux:diamond_anvil"
+      }
+    }
+  },
+  {
+    "id": "explosive_arrow",
+    "registry_id": "golems_materiaux:explosive_arrow",
+    "file": "data/golems_materiaux/recipe/explosive_arrow.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "#": "minecraft:stick",
+        "X": "minecraft:flint",
+        "Y": "minecraft:feather",
+        "G": "minecraft:gunpowder"
+      },
+      "pattern": [
+        " X ",
+        "G#G",
+        " Y "
+      ],
+      "result": {
+        "id": "golems_materiaux:explosive_arrow",
+        "count": 4
+      }
+    }
+  },
+  {
+    "id": "explosive_shield",
+    "registry_id": "golems_materiaux:explosive_shield",
+    "file": "data/golems_materiaux/recipe/explosive_shield.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " G ",
+        "GSG",
+        " GH"
+      ],
+      "key": {
+        "G": "minecraft:gold_ingot",
+        "S": "minecraft:shield",
+        "H": "golems_materiaux:unstable_heart_fragment"
+      },
+      "result": {
+        "id": "golems_materiaux:explosive_shield",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "golden_arrow",
+    "registry_id": "golems_materiaux:golden_arrow",
+    "file": "data/golems_materiaux/recipe/golden_arrow.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "#": "golems_materiaux:golden_stick",
+        "X": "minecraft:flint",
+        "Y": "minecraft:feather"
+      },
+      "pattern": [
+        "X",
+        "#",
+        "Y"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_arrow",
+        "count": 4
+      }
+    }
+  },
+  {
+    "id": "golden_boat",
+    "registry_id": "golems_materiaux:golden_boat",
+    "file": "data/golems_materiaux/recipe/golden_boat.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "group": "boat",
+      "key": {
+        "#": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "# #",
+        "###"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_boat"
+      }
+    }
+  },
+  {
+    "id": "golden_button",
+    "registry_id": "golems_materiaux:golden_button",
+    "file": "data/golems_materiaux/recipe/golden_button.json",
+    "definition": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "redstone",
+      "group": "wooden_button",
+      "ingredients": [
+        "golems_materiaux:golden_planks"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_button"
+      }
+    }
+  },
+  {
+    "id": "golden_chest_boat",
+    "registry_id": "golems_materiaux:golden_chest_boat",
+    "file": "data/golems_materiaux/recipe/golden_chest_boat.json",
+    "definition": {
+      "type": "minecraft:crafting_shapeless",
+      "group": "chest_boat",
+      "ingredients": [
+        "minecraft:chest",
+        "golems_materiaux:golden_boat"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_chest_boat"
+      }
+    }
+  },
+  {
+    "id": "golden_door",
+    "registry_id": "golems_materiaux:golden_door",
+    "file": "data/golems_materiaux/recipe/golden_door.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "group": "wooden_door",
+      "key": {
+        "#": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "##",
+        "##",
+        "##"
+      ],
+      "result": {
+        "count": 3,
+        "id": "golems_materiaux:golden_door"
+      }
+    }
+  },
+  {
+    "id": "golden_elixir",
+    "registry_id": "golems_materiaux:golden_elixir",
+    "file": "data/golems_materiaux/recipe/golden_elixir.json",
+    "definition": {
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        "golems_materiaux:golden_petals",
+        "minecraft:redstone",
+        "minecraft:golden_apple"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_elixir",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "golden_explosive_arrow",
+    "registry_id": "golems_materiaux:golden_explosive_arrow",
+    "file": "data/golems_materiaux/recipe/golden_explosive_arrow.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "#": "golems_materiaux:golden_stick",
+        "X": "minecraft:flint",
+        "Y": "minecraft:feather",
+        "G": "minecraft:gunpowder"
+      },
+      "pattern": [
+        " X ",
+        "G#G",
+        " Y "
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_explosive_arrow",
+        "count": 4
+      }
+    }
+  },
+  {
+    "id": "golden_fence",
+    "registry_id": "golems_materiaux:golden_fence",
+    "file": "data/golems_materiaux/recipe/golden_fence.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "group": "wooden_fence",
+      "key": {
+        "#": "golems_materiaux:golden_stick",
+        "W": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "W#W",
+        "W#W"
+      ],
+      "result": {
+        "count": 3,
+        "id": "golems_materiaux:golden_fence"
+      }
+    }
+  },
+  {
+    "id": "golden_fence_gate",
+    "registry_id": "golems_materiaux:golden_fence_gate",
+    "file": "data/golems_materiaux/recipe/golden_fence_gate.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "group": "wooden_fence_gate",
+      "key": {
+        "#": "golems_materiaux:golden_stick",
+        "W": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "#W#",
+        "#W#"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_fence_gate"
+      }
+    }
+  },
+  {
+    "id": "golden_hanging_sign",
+    "registry_id": "golems_materiaux:golden_hanging_sign",
+    "file": "data/golems_materiaux/recipe/golden_hanging_sign.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "group": "wooden_hanging_sign",
+      "key": {
+        "#": "golems_materiaux:stripped_golden_log",
+        "X": "minecraft:iron_chain"
+      },
+      "pattern": [
+        "X X",
+        "###",
+        "###"
+      ],
+      "result": {
+        "count": 6,
+        "id": "golems_materiaux:golden_hanging_sign"
+      }
+    }
+  },
+  {
+    "id": "golden_ladder",
+    "registry_id": "golems_materiaux:golden_ladder",
+    "file": "data/golems_materiaux/recipe/golden_ladder.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "key": {
+        "#": "golems_materiaux:golden_stick"
+      },
+      "pattern": [
+        "# #",
+        "###",
+        "# #"
+      ],
+      "result": {
+        "count": 3,
+        "id": "golems_materiaux:golden_ladder"
+      }
+    }
+  },
+  {
+    "id": "golden_log_blasting",
+    "registry_id": "golems_materiaux:golden_log_blasting",
+    "file": "data/golems_materiaux/recipe/golden_log_blasting.json",
+    "definition": {
+      "type": "minecraft:blasting",
+      "cookingtime": 200,
+      "experience": 1.0,
+      "group": "gold_ingot",
+      "ingredient": "#golems_materiaux:golden_logs",
+      "result": {
+        "id": "minecraft:gold_nugget",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "golden_log_smelting",
+    "registry_id": "golems_materiaux:golden_log_smelting",
+    "file": "data/golems_materiaux/recipe/golden_log_smelting.json",
+    "definition": {
+      "type": "minecraft:smelting",
+      "cookingtime": 200,
+      "experience": 1.0,
+      "group": "gold_ingot",
+      "ingredient": "#golems_materiaux:golden_logs",
+      "result": {
+        "id": "minecraft:gold_nugget",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "golden_planks",
+    "registry_id": "golems_materiaux:golden_planks",
+    "file": "data/golems_materiaux/recipe/golden_planks.json",
+    "definition": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "building",
+      "group": "planks",
+      "ingredients": [
+        "#golems_materiaux:golden_logs"
+      ],
+      "result": {
+        "count": 4,
+        "id": "golems_materiaux:golden_planks"
+      }
+    }
+  },
+  {
+    "id": "golden_pressure_plate",
+    "registry_id": "golems_materiaux:golden_pressure_plate",
+    "file": "data/golems_materiaux/recipe/golden_pressure_plate.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "group": "wooden_pressure_plate",
+      "key": {
+        "#": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "##"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_pressure_plate"
+      }
+    }
+  },
+  {
+    "id": "golden_sapling",
+    "registry_id": "golems_materiaux:golden_sapling",
+    "file": "data/golems_materiaux/recipe/golden_sapling.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "key": {
+        "#": "minecraft:gold_ingot",
+        "X": "minecraft:oak_sapling"
+      },
+      "pattern": [
+        "###",
+        "#X#",
+        "###"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_sapling"
+      }
+    }
+  },
+  {
+    "id": "golden_shelf",
+    "registry_id": "golems_materiaux:golden_shelf",
+    "file": "data/golems_materiaux/recipe/golden_shelf.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "group": "shelf",
+      "key": {
+        "#": "golems_materiaux:stripped_golden_log"
+      },
+      "pattern": [
+        "###",
+        "   ",
+        "###"
+      ],
+      "result": {
+        "count": 6,
+        "id": "golems_materiaux:golden_shelf"
+      }
+    }
+  },
+  {
+    "id": "golden_sign",
+    "registry_id": "golems_materiaux:golden_sign",
+    "file": "data/golems_materiaux/recipe/golden_sign.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "group": "wooden_sign",
+      "key": {
+        "#": "golems_materiaux:golden_planks",
+        "X": "golems_materiaux:golden_stick"
+      },
+      "pattern": [
+        "###",
+        "###",
+        " X "
+      ],
+      "result": {
+        "count": 3,
+        "id": "golems_materiaux:golden_sign"
+      }
+    }
+  },
+  {
+    "id": "golden_slab",
+    "registry_id": "golems_materiaux:golden_slab",
+    "file": "data/golems_materiaux/recipe/golden_slab.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "group": "wooden_slab",
+      "key": {
+        "#": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "###"
+      ],
+      "result": {
+        "count": 6,
+        "id": "golems_materiaux:golden_slab"
+      }
+    }
+  },
+  {
+    "id": "golden_stairs",
+    "registry_id": "golems_materiaux:golden_stairs",
+    "file": "data/golems_materiaux/recipe/golden_stairs.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "group": "wooden_stairs",
+      "key": {
+        "#": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "#  ",
+        "## ",
+        "###"
+      ],
+      "result": {
+        "count": 4,
+        "id": "golems_materiaux:golden_stairs"
+      }
+    }
+  },
+  {
+    "id": "golden_stick",
+    "registry_id": "golems_materiaux:golden_stick",
+    "file": "data/golems_materiaux/recipe/golden_stick.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "group": "sticks",
+      "key": {
+        "#": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "#",
+        "#"
+      ],
+      "result": {
+        "count": 4,
+        "id": "golems_materiaux:golden_stick"
+      }
+    }
+  },
+  {
+    "id": "golden_torch",
+    "registry_id": "golems_materiaux:golden_torch",
+    "file": "data/golems_materiaux/recipe/golden_torch.json",
+    "definition": {
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        "golems_materiaux:golden_stick",
+        "minecraft:torch"
+      ],
+      "result": {
+        "id": "golems_materiaux:golden_torch",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "golden_trapdoor",
+    "registry_id": "golems_materiaux:golden_trapdoor",
+    "file": "data/golems_materiaux/recipe/golden_trapdoor.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "group": "wooden_trapdoor",
+      "key": {
+        "#": "golems_materiaux:golden_planks"
+      },
+      "pattern": [
+        "###",
+        "###"
+      ],
+      "result": {
+        "count": 2,
+        "id": "golems_materiaux:golden_trapdoor"
+      }
+    }
+  },
+  {
+    "id": "golden_wood",
+    "registry_id": "golems_materiaux:golden_wood",
+    "file": "data/golems_materiaux/recipe/golden_wood.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "group": "bark",
+      "key": {
+        "#": "golems_materiaux:golden_log"
+      },
+      "pattern": [
+        "##",
+        "##"
+      ],
+      "result": {
+        "count": 3,
+        "id": "golems_materiaux:golden_wood"
+      }
+    }
+  },
+  {
+    "id": "healing_standard",
+    "registry_id": "golems_materiaux:healing_standard",
+    "file": "data/golems_materiaux/recipe/healing_standard.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "key": {
+        "W": "minecraft:white_banner",
+        "P": "minecraft:oak_planks",
+        "G": "golems_materiaux:golden_petals"
+      },
+      "pattern": [
+        " W ",
+        "PGP",
+        "PPP"
+      ],
+      "result": {
+        "id": "golems_materiaux:healing_standard",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "improved_flesh_block",
+    "registry_id": "golems_materiaux:improved_flesh_block",
+    "file": "data/golems_materiaux/recipe/improved_flesh_block.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "FFF",
+        "FFF",
+        "FFF"
+      ],
+      "key": {
+        "F": "golems_materiaux:improved_rotten_flesh"
+      },
+      "result": {
+        "id": "golems_materiaux:improved_flesh_block",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "master_explosive_arrow",
+    "registry_id": "golems_materiaux:master_explosive_arrow",
+    "file": "data/golems_materiaux/recipe/master_explosive_arrow.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "AAA",
+        "APA",
+        "AAA"
+      ],
+      "key": {
+        "A": "minecraft:arrow",
+        "P": "golems_materiaux:master_tnt_powder"
+      },
+      "result": {
+        "id": "golems_materiaux:explosive_arrow",
+        "count": 8
+      }
+    }
+  },
+  {
+    "id": "master_golden_explosive_arrow",
+    "registry_id": "golems_materiaux:master_golden_explosive_arrow",
+    "file": "data/golems_materiaux/recipe/master_golden_explosive_arrow.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "AAA",
+        "APA",
+        "AAA"
+      ],
+      "key": {
+        "A": "golems_materiaux:golden_arrow",
+        "P": "golems_materiaux:master_tnt_powder"
+      },
+      "result": {
+        "id": "golems_materiaux:golden_explosive_arrow",
+        "count": 8
+      }
+    }
+  },
+  {
+    "id": "netherite_crowned_helmet_1",
+    "registry_id": "golems_materiaux:netherite_crowned_helmet_1",
+    "file": "data/golems_materiaux/recipe/netherite_crowned_helmet_1.json",
+    "definition": {
+      "type": "minecraft:smithing_transform",
+      "addition": "#minecraft:netherite_tool_materials",
+      "base": "golems_materiaux:diamond_crowned_helmet_1",
+      "result": {
+        "id": "golems_materiaux:netherite_crowned_helmet_1"
+      },
+      "template": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  {
+    "id": "netherite_crowned_helmet_2",
+    "registry_id": "golems_materiaux:netherite_crowned_helmet_2",
+    "file": "data/golems_materiaux/recipe/netherite_crowned_helmet_2.json",
+    "definition": {
+      "type": "minecraft:smithing_transform",
+      "addition": "#minecraft:netherite_tool_materials",
+      "base": "golems_materiaux:diamond_crowned_helmet_2",
+      "result": {
+        "id": "golems_materiaux:netherite_crowned_helmet_2"
+      },
+      "template": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  {
+    "id": "netherite_crowned_helmet_3",
+    "registry_id": "golems_materiaux:netherite_crowned_helmet_3",
+    "file": "data/golems_materiaux/recipe/netherite_crowned_helmet_3.json",
+    "definition": {
+      "type": "minecraft:smithing_transform",
+      "addition": "#minecraft:netherite_tool_materials",
+      "base": "golems_materiaux:diamond_crowned_helmet_3",
+      "result": {
+        "id": "golems_materiaux:netherite_crowned_helmet_3"
+      },
+      "template": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  {
+    "id": "netherite_crowned_helmet_4",
+    "registry_id": "golems_materiaux:netherite_crowned_helmet_4",
+    "file": "data/golems_materiaux/recipe/netherite_crowned_helmet_4.json",
+    "definition": {
+      "type": "minecraft:smithing_transform",
+      "addition": "#minecraft:netherite_tool_materials",
+      "base": "golems_materiaux:diamond_crowned_helmet_4",
+      "result": {
+        "id": "golems_materiaux:netherite_crowned_helmet_4"
+      },
+      "template": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  {
+    "id": "netherite_crowned_helmet_5",
+    "registry_id": "golems_materiaux:netherite_crowned_helmet_5",
+    "file": "data/golems_materiaux/recipe/netherite_crowned_helmet_5.json",
+    "definition": {
+      "type": "minecraft:smithing_transform",
+      "addition": "#minecraft:netherite_tool_materials",
+      "base": "golems_materiaux:diamond_crowned_helmet_5",
+      "result": {
+        "id": "golems_materiaux:netherite_crowned_helmet_5"
+      },
+      "template": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  {
+    "id": "netherite_crowned_helmet_6",
+    "registry_id": "golems_materiaux:netherite_crowned_helmet_6",
+    "file": "data/golems_materiaux/recipe/netherite_crowned_helmet_6.json",
+    "definition": {
+      "type": "minecraft:smithing_transform",
+      "addition": "#minecraft:netherite_tool_materials",
+      "base": "golems_materiaux:diamond_crowned_helmet_6",
+      "result": {
+        "id": "golems_materiaux:netherite_crowned_helmet_6"
+      },
+      "template": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  {
+    "id": "netherite_crowned_helmet_7",
+    "registry_id": "golems_materiaux:netherite_crowned_helmet_7",
+    "file": "data/golems_materiaux/recipe/netherite_crowned_helmet_7.json",
+    "definition": {
+      "type": "minecraft:smithing_transform",
+      "addition": "#minecraft:netherite_tool_materials",
+      "base": "golems_materiaux:diamond_crowned_helmet_7",
+      "result": {
+        "id": "golems_materiaux:netherite_crowned_helmet_7"
+      },
+      "template": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  {
+    "id": "restoration_stone",
+    "registry_id": "golems_materiaux:restoration_stone",
+    "file": "data/golems_materiaux/recipe/restoration_stone.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "BLB",
+        "LDL",
+        "BLB"
+      ],
+      "key": {
+        "B": "golems_materiaux:ancient_bone",
+        "L": "minecraft:lapis_lazuli",
+        "D": "minecraft:diamond"
+      },
+      "result": {
+        "id": "golems_materiaux:restoration_stone",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "rotten_flesh_block",
+    "registry_id": "golems_materiaux:rotten_flesh_block",
+    "file": "data/golems_materiaux/recipe/rotten_flesh_block.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "FFF",
+        "FFF",
+        "FFF"
+      ],
+      "key": {
+        "F": "minecraft:rotten_flesh"
+      },
+      "result": {
+        "id": "golems_materiaux:rotten_flesh_block",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "splash_golden_elixir",
+    "registry_id": "golems_materiaux:splash_golden_elixir",
+    "file": "data/golems_materiaux/recipe/splash_golden_elixir.json",
+    "definition": {
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        "golems_materiaux:golden_elixir",
+        "minecraft:gunpowder"
+      ],
+      "result": {
+        "id": "golems_materiaux:splash_golden_elixir",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "stripped_golden_wood",
+    "registry_id": "golems_materiaux:stripped_golden_wood",
+    "file": "data/golems_materiaux/recipe/stripped_golden_wood.json",
+    "definition": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "group": "bark",
+      "key": {
+        "#": "golems_materiaux:stripped_golden_log"
+      },
+      "pattern": [
+        "##",
+        "##"
+      ],
+      "result": {
+        "count": 3,
+        "id": "golems_materiaux:stripped_golden_wood"
+      }
+    }
+  }
+]

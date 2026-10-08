@@ -1,0 +1,47 @@
+[
+  {
+    "embedded_jar": "META-INF/jars/companions-26.1.1.jar",
+    "mod_id": "golems_companions",
+    "mod_version": "1.13.1+26.1.1",
+    "minecraft_constraint": "26.1.1",
+    "java": ">=25",
+    "class_files": 235,
+    "json_files": 763
+  },
+  {
+    "embedded_jar": "META-INF/jars/companions-26.1.2.jar",
+    "mod_id": "golems_companions",
+    "mod_version": "1.13.1+26.1.2",
+    "minecraft_constraint": "26.1.2",
+    "java": ">=25",
+    "class_files": 235,
+    "json_files": 763
+  },
+  {
+    "embedded_jar": "META-INF/jars/companions-26.1.jar",
+    "mod_id": "golems_companions",
+    "mod_version": "1.13.1+26.1",
+    "minecraft_constraint": "26.1",
+    "java": ">=25",
+    "class_files": 235,
+    "json_files": 763
+  },
+  {
+    "embedded_jar": "META-INF/jars/companions-26.2.jar",
+    "mod_id": "golems_companions",
+    "mod_version": "1.13.1+26.2",
+    "minecraft_constraint": "26.2",
+    "java": ">=25",
+    "class_files": 235,
+    "json_files": 775
+  },
+  {
+    "embedded_jar": "META-INF/jars/companions-26.3.jar",
+    "mod_id": "golems_companions",
+    "mod_version": "1.13.1+26.3",
+    "minecraft_constraint": "26.3",
+    "java": ">=25",
+    "class_files": 235,
+    "json_files": 783
+  }
+]

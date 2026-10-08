@@ -1,0 +1,9 @@
+# Don't publish developer machine artifacts or a mod binary
+.gradle/
+build/
+*.jar
+*.class
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/

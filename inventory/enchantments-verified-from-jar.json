@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "abattage",
+    "name_fr": "Abattage",
+    "name_en": "Felling",
+    "effect_fr": "Abat des bûches reliées en cassant une bûche avec une hache.",
+    "effect_en": "Fells connected log blocks when breaking a log with an axe.",
+    "target_fr": "Haches",
+    "target_en": "Axes",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_axe",
+      "minecraft:diamond_axe",
+      "minecraft:golden_axe",
+      "minecraft:iron_axe",
+      "minecraft:netherite_axe",
+      "minecraft:stone_axe",
+      "minecraft:wooden_axe"
+    ],
+    "hooks": [
+      "AncientTools.broken"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/abattage.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/abattage.json"
+  },
+  {
+    "id": "absorption",
+    "name_fr": "Absorption",
+    "name_en": "Absorption",
+    "effect_fr": "Accorde temporairement des cœurs d’absorption après une attaque à la masse.",
+    "effect_en": "Temporarily grants absorption hearts after a mace hit.",
+    "target_fr": "Masse",
+    "target_en": "Mace",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:mace"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/absorption.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/absorption.json"
+  },
+  {
+    "id": "allonge",
+    "name_fr": "Allonge",
+    "name_en": "Reach",
+    "effect_fr": "Augmente la portée d’interaction de l’utilisateur lorsqu’une lance enchantée est tenue.",
+    "effect_en": "Increases the interaction reach while holding an enchanted spear.",
+    "target_fr": "Lances",
+    "target_en": "Spears",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_spear",
+      "minecraft:diamond_spear",
+      "minecraft:golden_spear",
+      "minecraft:iron_spear",
+      "minecraft:netherite_spear",
+      "minecraft:stone_spear",
+      "minecraft:wooden_spear"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/allonge.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/allonge.json"
+  },
+  {
+    "id": "amarrage",
+    "name_fr": "Amarrage",
+    "name_en": "Mooring",
+    "effect_fr": "Pouvoir appliqué aux bateaux ; influence leur comportement de maintien/arrêt.",
+    "effect_en": "Boat enchantment affecting how a vessel holds or stops its position.",
+    "target_fr": "Bateaux et radeaux",
+    "target_en": "Boats and rafts",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:golden_boat",
+      "golems_materiaux:golden_chest_boat",
+      "minecraft:acacia_boat",
+      "minecraft:acacia_chest_boat",
+      "minecraft:bamboo_chest_raft",
+      "minecraft:bamboo_raft",
+      "minecraft:birch_boat",
+      "minecraft:birch_chest_boat",
+      "minecraft:cherry_boat",
+      "minecraft:cherry_chest_boat",
+      "minecraft:dark_oak_boat",
+      "minecraft:dark_oak_chest_boat",
+      "minecraft:jungle_boat",
+      "minecraft:jungle_chest_boat",
+      "minecraft:mangrove_boat",
+      "minecraft:mangrove_chest_boat",
+      "minecraft:oak_boat",
+      "minecraft:oak_chest_boat",
+      "minecraft:pale_oak_boat",
+      "minecraft:pale_oak_chest_boat",
+      "minecraft:poplar_boat",
+      "minecraft:poplar_chest_boat",
+      "minecraft:spruce_boat",
+      "minecraft:spruce_chest_boat"
+    ],
+    "hooks": [
+      "AncientUtility.spawned",
+      "AncientUtility.boatItem"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/amarrage.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/amarrage.json"
+  },
+  {
+    "id": "amortissement",
+    "name_fr": "Amortissement",
+    "name_en": "Cushioning",
+    "effect_fr": "Atténue les dégâts de chute avec les élytres.",
+    "effect_en": "Mitigates fall damage while using an elytra.",
+    "target_fr": "Élytres",
+    "target_en": "Elytra",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:elytra"
+    ],
+    "hooks": [
+      "AncientEffects.damage"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/amortissement.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/amortissement.json"
+  },
+  {
+    "id": "apaisement",
+    "name_fr": "Apaisement",
+    "name_en": "Soothing",
+    "effect_fr": "Apaise les abeilles lors des interactions avec les ruches au moyen de cisailles.",
+    "effect_en": "Calms bees during beehive interactions using shears.",
+    "target_fr": "Cisailles",
+    "target_en": "Shears",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:shears"
+    ],
+    "hooks": [
+      "mixin.AncientBeehiveMixin.gm$peace"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/apaisement.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/apaisement.json"
+  },
+  {
+    "id": "arc_electrique",
+    "name_fr": "Arc électrique",
+    "name_en": "Electric Arc",
+    "effect_fr": "Déclenche un effet électrique sur des cibles proches après une attaque au trident.",
+    "effect_en": "Triggers an electrical effect among nearby targets after a trident hit.",
+    "target_fr": "Trident",
+    "target_en": "Trident",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:trident"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/arc_electrique.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/arc_electrique.json"
+  },
+  {
+    "id": "aspiration",
+    "name_fr": "Aspiration",
+    "name_en": "Vacuum",
+    "effect_fr": "Ramasse automatiquement des objets issus du minage vers le joueur.",
+    "effect_en": "Automatically gathers some drops from mining toward the player.",
+    "target_fr": "Pioches / Haches / Pelles",
+    "target_en": "Pickaxes / Axes / Shovels",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_axe",
+      "minecraft:copper_pickaxe",
+      "minecraft:copper_shovel",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:golden_axe",
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_shovel",
+      "minecraft:iron_axe",
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_shovel",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:netherite_shovel",
+      "minecraft:stone_axe",
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_shovel",
+      "minecraft:wooden_axe",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_shovel"
+    ],
+    "hooks": [
+      "AncientTools.drops"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/aspiration.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/aspiration.json"
+  },
+  {
+    "id": "assaut",
+    "name_fr": "Assaut",
+    "name_en": "Assault",
+    "effect_fr": "Modifie les dégâts des tirs d’arbalète.",
+    "effect_en": "Modifies the damage of crossbow attacks.",
+    "target_fr": "Arbalète",
+    "target_en": "Crossbow",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:crossbow"
+    ],
+    "hooks": [
+      "AncientEffects.damage"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/assaut.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/assaut.json"
+  },
+  {
+    "id": "bond",
+    "name_fr": "Bond",
+    "name_en": "Leap",
+    "effect_fr": "Améliore les capacités de saut avec les bottes équipées.",
+    "effect_en": "Improves jump movement with enchanted boots.",
+    "target_fr": "Bottes",
+    "target_en": "Boots",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_boots",
+      "minecraft:copper_boots",
+      "minecraft:diamond_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:leather_boots",
+      "minecraft:netherite_boots"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/bond.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/bond.json"
+  },
+  {
+    "id": "brise_garde",
+    "name_fr": "Brise-garde",
+    "name_en": "Guard Breaker",
+    "effect_fr": "Interrompt le blocage de la cible et applique un délai au bouclier.",
+    "effect_en": "Interrupts enemy blocking and applies a shield cooldown.",
+    "target_fr": "Lances",
+    "target_en": "Spears",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_spear",
+      "minecraft:diamond_spear",
+      "minecraft:golden_spear",
+      "minecraft:iron_spear",
+      "minecraft:netherite_spear",
+      "minecraft:stone_spear",
+      "minecraft:wooden_spear"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/brise_garde.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/brise_garde.json"
+  },
+  {
+    "id": "collecteur",
+    "name_fr": "Collecteur",
+    "name_en": "Collector",
+    "effect_fr": "Attire vers le joueur les orbes d’expérience proches (rayon observé de 8 blocs).",
+    "effect_en": "Attracts nearby experience orbs toward the player (8-block radius observed).",
+    "target_fr": "Casques",
+    "target_en": "Helmets",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:diamond_crowned_helmet_1",
+      "golems_materiaux:diamond_crowned_helmet_2",
+      "golems_materiaux:diamond_crowned_helmet_3",
+      "golems_materiaux:diamond_crowned_helmet_4",
+      "golems_materiaux:diamond_crowned_helmet_5",
+      "golems_materiaux:diamond_crowned_helmet_6",
+      "golems_materiaux:diamond_crowned_helmet_7",
+      "golems_materiaux:netherite_crowned_helmet_1",
+      "golems_materiaux:netherite_crowned_helmet_2",
+      "golems_materiaux:netherite_crowned_helmet_3",
+      "golems_materiaux:netherite_crowned_helmet_4",
+      "golems_materiaux:netherite_crowned_helmet_5",
+      "golems_materiaux:netherite_crowned_helmet_6",
+      "golems_materiaux:netherite_crowned_helmet_7",
+      "minecraft:chainmail_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:leather_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/collecteur.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/collecteur.json"
+  },
+  {
+    "id": "courant_porteur",
+    "name_fr": "Courant porteur",
+    "name_en": "Carrying Current",
+    "effect_fr": "Augmente légèrement l’élan de déplacement sous l’eau lorsque le trident est tenu.",
+    "effect_en": "Slightly increases underwater momentum while holding the trident.",
+    "target_fr": "Trident",
+    "target_en": "Trident",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:trident"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/courant_porteur.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/courant_porteur.json"
+  },
+  {
+    "id": "croc_redoutable",
+    "name_fr": "Croc redoutable",
+    "name_en": "Fearsome Fang",
+    "effect_fr": "Augmente les dégâts d’attaque de l’animal équipé (bonus observé de 2 points).",
+    "effect_en": "Increases attack damage for an armored animal (+2 damage observed).",
+    "target_fr": "Armure de loup",
+    "target_en": "Wolf armor",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:wolf_armor"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/croc_redoutable.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/croc_redoutable.json"
+  },
+  {
+    "id": "cueillette",
+    "name_fr": "Cueillette",
+    "name_en": "Gathering",
+    "effect_fr": "Ajoute une chance de récolte supplémentaire sur certaines plantes avec une houe.",
+    "effect_en": "Adds a chance for bonus harvesting from certain plants with a hoe.",
+    "target_fr": "Houes",
+    "target_en": "Hoes",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:wooden_hoe"
+    ],
+    "hooks": [
+      "AncientTools.drops"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/cueillette.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/cueillette.json"
+  },
+  {
+    "id": "cuirasse",
+    "name_fr": "Cuirasse",
+    "name_en": "Carapace",
+    "effect_fr": "Réduit certains dégâts reçus par une monture portant une armure enchantée.",
+    "effect_en": "Mitigates some incoming damage to an armored mount.",
+    "target_fr": "Armures de cheval",
+    "target_en": "Horse armor",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_horse_armor",
+      "minecraft:diamond_horse_armor",
+      "minecraft:golden_horse_armor",
+      "minecraft:iron_horse_armor",
+      "minecraft:leather_horse_armor",
+      "minecraft:netherite_horse_armor"
+    ],
+    "hooks": [
+      "AncientEffects.damage"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/cuirasse.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/cuirasse.json"
+  },
+  {
+    "id": "decouverte",
+    "name_fr": "Découverte",
+    "name_en": "Discovery",
+    "effect_fr": "Donne une chance de découverte supplémentaire lors du brossage archéologique.",
+    "effect_en": "Adds a chance for an extra find when brushing suspicious blocks.",
+    "target_fr": "Pinceau archéologique",
+    "target_en": "Brush",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:brush"
+    ],
+    "hooks": [
+      "mixin.AncientBrushMixin.gm$extra"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/decouverte.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/decouverte.json"
+  },
+  {
+    "id": "delicatesse",
+    "name_fr": "Délicatesse",
+    "name_en": "Delicacy",
+    "effect_fr": "Prolonge la fenêtre de progression du brossage avant sa remise à zéro.",
+    "effect_en": "Extends the time before brushing progress resets.",
+    "target_fr": "Pinceau archéologique",
+    "target_en": "Brush",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:brush"
+    ],
+    "hooks": [
+      "mixin.AncientBrushMixin.gm$gentle"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/delicatesse.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/delicatesse.json"
+  },
+  {
+    "id": "double_charge",
+    "name_fr": "Double charge",
+    "name_en": "Double Load",
+    "effect_fr": "Permet une seconde charge/un tir supplémentaire à l’arbalète.",
+    "effect_en": "Allows an extra crossbow load/shot.",
+    "target_fr": "Arbalète",
+    "target_en": "Crossbow",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:crossbow"
+    ],
+    "hooks": [
+      "AncientUtility.doubleLoad"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/double_charge.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/double_charge.json"
+  },
+  {
+    "id": "elan",
+    "name_fr": "Élan",
+    "name_en": "Momentum",
+    "effect_fr": "Modifie les dégâts infligés par une masse selon le mouvement/l’élan.",
+    "effect_en": "Modifies mace damage based on momentum or movement.",
+    "target_fr": "Masse",
+    "target_en": "Mace",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:mace"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/elan.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/elan.json"
+  },
+  {
+    "id": "embrasement",
+    "name_fr": "Embrasement",
+    "name_en": "Ignition",
+    "effect_fr": "Améliore l’utilisation du briquet et ses interactions incendiaires.",
+    "effect_en": "Enhances fire-starting interactions with flint and steel.",
+    "target_fr": "Briquet",
+    "target_en": "Flint and steel",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:flint_and_steel"
+    ],
+    "hooks": [
+      "AncientUtility.fire"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/embrasement.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/embrasement.json"
+  },
+  {
+    "id": "endurance",
+    "name_fr": "Endurance",
+    "name_en": "Endurance",
+    "effect_fr": "Réduit certains coûts de faim liés aux actions du joueur.",
+    "effect_en": "Reduces some hunger costs from player actions.",
+    "target_fr": "Jambières",
+    "target_en": "Leggings",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:leather_leggings",
+      "minecraft:netherite_leggings"
+    ],
+    "hooks": [
+      "mixin.AncientHungerMixin.gm$endurance"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/endurance.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/endurance.json"
+  },
+  {
+    "id": "entrave",
+    "name_fr": "Entrave",
+    "name_en": "Snare",
+    "effect_fr": "Applique un ralentissement/effet d’entrave après une attaque à la lance.",
+    "effect_en": "Inflicts a slowing or snaring effect after a spear strike.",
+    "target_fr": "Lances / Trident",
+    "target_en": "Spears / Trident",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_spear",
+      "minecraft:diamond_spear",
+      "minecraft:golden_spear",
+      "minecraft:iron_spear",
+      "minecraft:netherite_spear",
+      "minecraft:stone_spear",
+      "minecraft:trident",
+      "minecraft:wooden_spear"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/entrave.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/entrave.json"
+  },
+  {
+    "id": "etincelle_lointaine",
+    "name_fr": "Étincelle lointaine",
+    "name_en": "Distant Spark",
+    "effect_fr": "Permet d’allumer à distance avec un briquet.",
+    "effect_en": "Enables remote ignition with flint and steel.",
+    "target_fr": "Briquet",
+    "target_en": "Flint and steel",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:flint_and_steel"
+    ],
+    "hooks": [
+      "AncientUtility.ignite",
+      "AncientUtility.fire"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/etincelle_lointaine.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/etincelle_lointaine.json"
+  },
+  {
+    "id": "expertise",
+    "name_fr": "Expertise",
+    "name_en": "Expertise",
+    "effect_fr": "Ajoute des informations d’observation à la longue-vue.",
+    "effect_en": "Adds enhanced observation details when using a spyglass.",
+    "target_fr": "Longue-vue",
+    "target_en": "Spyglass",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:spyglass"
+    ],
+    "hooks": [
+      "AncientEffects.spyglass"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/expertise.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/expertise.json"
+  },
+  {
+    "id": "extraction_delicate",
+    "name_fr": "Extraction délicate",
+    "name_en": "Delicate Extraction",
+    "effect_fr": "Ajoute une chance particulière de récupération sur les minerais naturels non placés par le joueur.",
+    "effect_en": "Adds special extraction chances for naturally generated, non-player-placed ores.",
+    "target_fr": "Pioches",
+    "target_en": "Pickaxes",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:wooden_pickaxe"
+    ],
+    "hooks": [
+      "AncientTools.drops"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/extraction_delicate.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/extraction_delicate.json"
+  },
+  {
+    "id": "floraison_enchantee",
+    "name_fr": "Floraison enchantée",
+    "name_en": "Enchanted Blossom",
+    "effect_fr": "Modifie la pousse/les récompenses des pousses d’arbres dorés enchantées.",
+    "effect_en": "Alters the growth or rewards of an enchanted golden sapling.",
+    "target_fr": "Pousse dorée",
+    "target_en": "Golden sapling",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:golden_sapling"
+    ],
+    "hooks": [
+      "GoldenSaplingBlock.setPlacedBy",
+      "AncientTools.drops"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/floraison_enchantee.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/floraison_enchantee.json"
+  },
+  {
+    "id": "flottaison",
+    "name_fr": "Flottaison",
+    "name_en": "Buoyancy",
+    "effect_fr": "Pouvoir de bateau lié à sa flottabilité.",
+    "effect_en": "Boat enchantment associated with buoyancy.",
+    "target_fr": "Bateaux et radeaux",
+    "target_en": "Boats and rafts",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:golden_boat",
+      "golems_materiaux:golden_chest_boat",
+      "minecraft:acacia_boat",
+      "minecraft:acacia_chest_boat",
+      "minecraft:bamboo_chest_raft",
+      "minecraft:bamboo_raft",
+      "minecraft:birch_boat",
+      "minecraft:birch_chest_boat",
+      "minecraft:cherry_boat",
+      "minecraft:cherry_chest_boat",
+      "minecraft:dark_oak_boat",
+      "minecraft:dark_oak_chest_boat",
+      "minecraft:jungle_boat",
+      "minecraft:jungle_chest_boat",
+      "minecraft:mangrove_boat",
+      "minecraft:mangrove_chest_boat",
+      "minecraft:oak_boat",
+      "minecraft:oak_chest_boat",
+      "minecraft:pale_oak_boat",
+      "minecraft:pale_oak_chest_boat",
+      "minecraft:poplar_boat",
+      "minecraft:poplar_chest_boat",
+      "minecraft:spruce_boat",
+      "minecraft:spruce_chest_boat"
+    ],
+    "hooks": [
+      "AncientUtility.spawned",
+      "AncientUtility.boatItem"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/flottaison.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/flottaison.json"
+  },
+  {
+    "id": "flotteur_patient",
+    "name_fr": "Flotteur patient",
+    "name_en": "Patient Float",
+    "effect_fr": "Allonge la fenêtre de morsure d’un poisson au flotteur.",
+    "effect_en": "Extends the fishing bite window.",
+    "target_fr": "Canne à pêche",
+    "target_en": "Fishing rod",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:fishing_rod"
+    ],
+    "hooks": [
+      "mixin.AncientFishingMixin.gm$patience"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/flotteur_patient.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/flotteur_patient.json"
+  },
+  {
+    "id": "fonderie",
+    "name_fr": "Fonderie",
+    "name_en": "Smelting",
+    "effect_fr": "Transforme certains butins minés via une fusion automatique.",
+    "effect_en": "Automatically smelts certain mined block drops.",
+    "target_fr": "Pioches",
+    "target_en": "Pickaxes",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_pickaxe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:wooden_pickaxe"
+    ],
+    "hooks": [
+      "AncientTools.drops"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/fonderie.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/fonderie.json"
+  },
+  {
+    "id": "fouille_rapide",
+    "name_fr": "Fouille rapide",
+    "name_en": "Swift Brushing",
+    "effect_fr": "Accélère la progression du brossage archéologique.",
+    "effect_en": "Speeds up archaeological brushing progress.",
+    "target_fr": "Pinceau archéologique",
+    "target_en": "Brush",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:brush"
+    ],
+    "hooks": [
+      "mixin.AncientBrushMixin.gm$fast"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/fouille_rapide.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/fouille_rapide.json"
+  },
+  {
+    "id": "fracture",
+    "name_fr": "Fracture",
+    "name_en": "Fracture",
+    "effect_fr": "Modifie le calcul de l’armure de la cible lors des attaques à la hache.",
+    "effect_en": "Changes how enemy armor is calculated on axe strikes.",
+    "target_fr": "Haches",
+    "target_en": "Axes",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_axe",
+      "minecraft:diamond_axe",
+      "minecraft:golden_axe",
+      "minecraft:iron_axe",
+      "minecraft:netherite_axe",
+      "minecraft:stone_axe",
+      "minecraft:wooden_axe"
+    ],
+    "hooks": [
+      "AncientEffects.armor"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/fracture.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/fracture.json"
+  },
+  {
+    "id": "franchissement",
+    "name_fr": "Franchissement",
+    "name_en": "Traversal",
+    "effect_fr": "Aide les montures commandées avec une canne de contrôle à franchir les obstacles.",
+    "effect_en": "Helps controlled mounts cross obstacles.",
+    "target_fr": "Canne à carotte / Canne à champignon biscornu",
+    "target_en": "Carrot on a stick / Warped fungus on a stick",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/franchissement.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/franchissement.json"
+  },
+  {
+    "id": "furie",
+    "name_fr": "Furie",
+    "name_en": "Fury",
+    "effect_fr": "Augmente la vitesse d’attaque lorsque les points de vie sont bas.",
+    "effect_en": "Increases attack speed while health is low.",
+    "target_fr": "Épées",
+    "target_en": "Swords",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_sword",
+      "minecraft:diamond_sword",
+      "minecraft:golden_sword",
+      "minecraft:iron_sword",
+      "minecraft:netherite_sword",
+      "minecraft:stone_sword",
+      "minecraft:wooden_sword"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/furie.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/furie.json"
+  },
+  {
+    "id": "gelure",
+    "name_fr": "Gelure",
+    "name_en": "Frostbite",
+    "effect_fr": "Inflige un effet de froid/ralentissement à la cible des tirs.",
+    "effect_en": "Applies a chill or slowing effect to an arrow target.",
+    "target_fr": "Arcs / Arbalète",
+    "target_en": "Bows / Crossbow",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:ancient_bow",
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/gelure.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/gelure.json"
+  },
+  {
+    "id": "hemorragie",
+    "name_fr": "Hémorragie",
+    "name_en": "Bleeding",
+    "effect_fr": "Inflige des dégâts différés après une attaque réussie.",
+    "effect_en": "Deals delayed bleeding damage after a successful hit.",
+    "target_fr": "Épées",
+    "target_en": "Swords",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_sword",
+      "minecraft:diamond_sword",
+      "minecraft:golden_sword",
+      "minecraft:iron_sword",
+      "minecraft:netherite_sword",
+      "minecraft:stone_sword",
+      "minecraft:wooden_sword"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/hemorragie.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/hemorragie.json"
+  },
+  {
+    "id": "impulsion",
+    "name_fr": "Impulsion",
+    "name_en": "Impulse",
+    "effect_fr": "Prolonge le boost des cochons et arpenteurs montés.",
+    "effect_en": "Extends the boost duration for ridden pigs and striders.",
+    "target_fr": "Canne à carotte / Canne à champignon biscornu",
+    "target_en": "Carrot on a stick / Warped fungus on a stick",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick"
+    ],
+    "hooks": [
+      "mixin.AncientPigBoostMixin.gm$longer",
+      "mixin.AncientStriderBoostMixin.gm$longer"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/impulsion.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/impulsion.json"
+  },
+  {
+    "id": "leader",
+    "name_fr": "Leader",
+    "name_en": "Leader",
+    "effect_fr": "Enchantement de casque lié aux ordres/au commandement des compagnons.",
+    "effect_en": "Helmet enchantment linked to leading and commanding companions.",
+    "target_fr": "Casques",
+    "target_en": "Helmets",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:diamond_crowned_helmet_1",
+      "golems_materiaux:diamond_crowned_helmet_2",
+      "golems_materiaux:diamond_crowned_helmet_3",
+      "golems_materiaux:diamond_crowned_helmet_4",
+      "golems_materiaux:diamond_crowned_helmet_5",
+      "golems_materiaux:diamond_crowned_helmet_6",
+      "golems_materiaux:diamond_crowned_helmet_7",
+      "golems_materiaux:netherite_crowned_helmet_1",
+      "golems_materiaux:netherite_crowned_helmet_2",
+      "golems_materiaux:netherite_crowned_helmet_3",
+      "golems_materiaux:netherite_crowned_helmet_4",
+      "golems_materiaux:netherite_crowned_helmet_5",
+      "golems_materiaux:netherite_crowned_helmet_6",
+      "golems_materiaux:netherite_crowned_helmet_7",
+      "minecraft:chainmail_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:leather_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:turtle_helmet"
+    ],
+    "hooks": [
+      "AncientEnchantments.lambda$offer$0",
+      "LeaderOrders.lambda$roster$0"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/leader.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/leader.json"
+  },
+  {
+    "id": "meche_longue",
+    "name_fr": "Mèche longue",
+    "name_en": "Long Fuse",
+    "effect_fr": "Allonge la durée de la mèche de TNT allumée au briquet.",
+    "effect_en": "Lengthens the TNT fuse when ignited with flint and steel.",
+    "target_fr": "Briquet",
+    "target_en": "Flint and steel",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:flint_and_steel"
+    ],
+    "hooks": [
+      "AncientUtility.fire"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/meche_longue.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/meche_longue.json"
+  },
+  {
+    "id": "memoire",
+    "name_fr": "Mémoire",
+    "name_en": "Memory",
+    "effect_fr": "Permet au compas de mémoriser une position.",
+    "effect_en": "Lets an enchanted compass remember a position.",
+    "target_fr": "Boussole",
+    "target_en": "Compass",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:compass"
+    ],
+    "hooks": [
+      "AncientCompass.position",
+      "AncientCompass.remember"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/memoire.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/memoire.json"
+  },
+  {
+    "id": "mesure",
+    "name_fr": "Mesure",
+    "name_en": "Measurement",
+    "effect_fr": "Affiche une mesure de distance et les coordonnées à la longue-vue.",
+    "effect_en": "Displays distances and coordinates through the spyglass.",
+    "target_fr": "Longue-vue",
+    "target_en": "Spyglass",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:spyglass"
+    ],
+    "hooks": [
+      "AncientEffects.spyglass"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/mesure.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/mesure.json"
+  },
+  {
+    "id": "mobilite",
+    "name_fr": "Mobilité",
+    "name_en": "Mobility",
+    "effect_fr": "Modifie la vitesse de déplacement lorsqu’un objet est utilisé.",
+    "effect_en": "Adjusts movement speed while using an item.",
+    "target_fr": "Jambières",
+    "target_en": "Leggings",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:leather_leggings",
+      "minecraft:netherite_leggings"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/mobilite.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/mobilite.json"
+  },
+  {
+    "id": "navigation",
+    "name_fr": "Navigation",
+    "name_en": "Navigation",
+    "effect_fr": "Pouvoir lié au déplacement des bateaux enchantés.",
+    "effect_en": "Boat enchantment associated with handling and movement.",
+    "target_fr": "Bateaux et radeaux",
+    "target_en": "Boats and rafts",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:golden_boat",
+      "golems_materiaux:golden_chest_boat",
+      "minecraft:acacia_boat",
+      "minecraft:acacia_chest_boat",
+      "minecraft:bamboo_chest_raft",
+      "minecraft:bamboo_raft",
+      "minecraft:birch_boat",
+      "minecraft:birch_chest_boat",
+      "minecraft:cherry_boat",
+      "minecraft:cherry_chest_boat",
+      "minecraft:dark_oak_boat",
+      "minecraft:dark_oak_chest_boat",
+      "minecraft:jungle_boat",
+      "minecraft:jungle_chest_boat",
+      "minecraft:mangrove_boat",
+      "minecraft:mangrove_chest_boat",
+      "minecraft:oak_boat",
+      "minecraft:oak_chest_boat",
+      "minecraft:pale_oak_boat",
+      "minecraft:pale_oak_chest_boat",
+      "minecraft:poplar_boat",
+      "minecraft:poplar_chest_boat",
+      "minecraft:spruce_boat",
+      "minecraft:spruce_chest_boat"
+    ],
+    "hooks": [
+      "AncientUtility.spawned",
+      "AncientUtility.boatItem"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/navigation.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/navigation.json"
+  },
+  {
+    "id": "onde_de_choc",
+    "name_fr": "Onde de choc",
+    "name_en": "Shockwave",
+    "effect_fr": "Crée un effet de zone autour de la cible d’une attaque à la masse.",
+    "effect_en": "Creates an area effect around the target of a mace attack.",
+    "target_fr": "Masse",
+    "target_en": "Mace",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:mace"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/onde_de_choc.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/onde_de_choc.json"
+  },
+  {
+    "id": "ordre_groupe",
+    "name_fr": "Ordre groupé",
+    "name_en": "Group Order",
+    "effect_fr": "Utilise le compas pour définir un ordre de patrouille à un groupe.",
+    "effect_en": "Uses a compass to issue group patrol orders.",
+    "target_fr": "Boussole",
+    "target_en": "Compass",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:compass"
+    ],
+    "hooks": [
+      "CompassPatrol.place"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/ordre_groupe.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/ordre_groupe.json"
+  },
+  {
+    "id": "pas_du_jardinier",
+    "name_fr": "Pas du jardinier",
+    "name_en": "Gardener Steps",
+    "effect_fr": "Évite d’abîmer les cultures par piétinement.",
+    "effect_en": "Prevents trampling farmland and crops.",
+    "target_fr": "Bottes",
+    "target_en": "Boots",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_boots",
+      "minecraft:copper_boots",
+      "minecraft:diamond_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:leather_boots",
+      "minecraft:netherite_boots"
+    ],
+    "hooks": [
+      "mixin.AncientFarmMixin.gm$gentle",
+      "AncientEffects.damage"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/pas_du_jardinier.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/pas_du_jardinier.json"
+  },
+  {
+    "id": "pas_leger",
+    "name_fr": "Pas léger",
+    "name_en": "Light Steps",
+    "effect_fr": "Rend les déplacements plus discrets pour les capteurs de vibrations.",
+    "effect_en": "Makes movement harder for vibration sensors to detect.",
+    "target_fr": "Bottes",
+    "target_en": "Boots",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_boots",
+      "minecraft:copper_boots",
+      "minecraft:diamond_boots",
+      "minecraft:golden_boots",
+      "minecraft:iron_boots",
+      "minecraft:leather_boots",
+      "minecraft:netherite_boots"
+    ],
+    "hooks": [
+      "mixin.AncientStealthMixin.gm$quiet"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/pas_leger.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/pas_leger.json"
+  },
+  {
+    "id": "ponction",
+    "name_fr": "Ponction",
+    "name_en": "Siphon",
+    "effect_fr": "Déclenche un effet de récupération/ponction à l’impact des flèches.",
+    "effect_en": "Triggers a siphoning or recovery effect on an arrow hit.",
+    "target_fr": "Arcs",
+    "target_en": "Bows",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:ancient_bow",
+      "minecraft:bow"
+    ],
+    "hooks": [
+      "AncientEffects.after"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/ponction.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/ponction.json"
+  },
+  {
+    "id": "portance",
+    "name_fr": "Portance",
+    "name_en": "Lift",
+    "effect_fr": "Réduit la vitesse de descente lors du vol en élytres.",
+    "effect_en": "Slows downward movement while gliding with an elytra.",
+    "target_fr": "Élytres",
+    "target_en": "Elytra",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:elytra"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/portance.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/portance.json"
+  },
+  {
+    "id": "portee",
+    "name_fr": "Portée",
+    "name_en": "Range",
+    "effect_fr": "Étend la portée du système de patrouille déclenché avec un compas.",
+    "effect_en": "Extends the range of the compass-based patrol system.",
+    "target_fr": "Boussole",
+    "target_en": "Compass",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:compass"
+    ],
+    "hooks": [
+      "CompassPatrol.place"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/portee.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/portee.json"
+  },
+  {
+    "id": "prise_double",
+    "name_fr": "Prise double",
+    "name_en": "Double Catch",
+    "effect_fr": "Donne une chance de doubler une prise de poisson.",
+    "effect_en": "Gives a chance to double a caught fish.",
+    "target_fr": "Canne à pêche",
+    "target_en": "Fishing rod",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:fishing_rod"
+    ],
+    "hooks": [
+      "AncientUtility.spawned"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/prise_double.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/prise_double.json"
+  },
+  {
+    "id": "propulsion_econome",
+    "name_fr": "Propulsion économe",
+    "name_en": "Efficient Propulsion",
+    "effect_fr": "Donne une chance d’économiser une fusée de propulsion.",
+    "effect_en": "Gives a chance not to consume a flight rocket.",
+    "target_fr": "Élytres",
+    "target_en": "Elytra",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:elytra"
+    ],
+    "hooks": [
+      "mixin.AncientRocketMixin.gm$save"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/propulsion_econome.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/propulsion_econome.json"
+  },
+  {
+    "id": "prospection",
+    "name_fr": "Prospection",
+    "name_en": "Prospecting",
+    "effect_fr": "Ajoute une faible chance de butin supplémentaire dans le sable ou le gravier.",
+    "effect_en": "Adds a small chance of bonus drops when digging sand or gravel.",
+    "target_fr": "Pelles",
+    "target_en": "Shovels",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_shovel",
+      "minecraft:diamond_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:wooden_shovel"
+    ],
+    "hooks": [
+      "AncientTools.drops"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/prospection.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/prospection.json"
+  },
+  {
+    "id": "protection_explosive",
+    "name_fr": "Protection explosive",
+    "name_en": "Blast Ward",
+    "effect_fr": "Réduit les dégâts explosifs reçus par un animal protégé.",
+    "effect_en": "Reduces explosive damage received by a protected animal.",
+    "target_fr": "Armure de loup",
+    "target_en": "Wolf armor",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:wolf_armor"
+    ],
+    "hooks": [
+      "AncientEffects.damage"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/protection_explosive.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/protection_explosive.json"
+  },
+  {
+    "id": "rangement",
+    "name_fr": "Rangement",
+    "name_en": "Stowing",
+    "effect_fr": "Place directement certains butins de pêche dans l’inventaire.",
+    "effect_en": "Moves some fishing loot directly into the inventory.",
+    "target_fr": "Canne à pêche",
+    "target_en": "Fishing rod",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:fishing_rod"
+    ],
+    "hooks": [
+      "AncientUtility.spawned"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/rangement.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/rangement.json"
+  },
+  {
+    "id": "recolte",
+    "name_fr": "Récolte",
+    "name_en": "Harvest",
+    "effect_fr": "Récolte simultanément plusieurs cultures mûres avec une houe.",
+    "effect_en": "Harvests several mature crops using a hoe.",
+    "target_fr": "Houes",
+    "target_en": "Hoes",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:wooden_hoe"
+    ],
+    "hooks": [
+      "AncientTools.broken"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/recolte.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/recolte.json"
+  },
+  {
+    "id": "recolte_intacte",
+    "name_fr": "Récolte intacte",
+    "name_en": "Intact Harvest",
+    "effect_fr": "Permet certaines récoltes intactes avec les cisailles, notamment sur les ruches.",
+    "effect_en": "Allows intact gathering of some objects with shears, including beehives.",
+    "target_fr": "Cisailles",
+    "target_en": "Shears",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:shears"
+    ],
+    "hooks": [
+      "AncientTools.drops",
+      "mixin.AncientBeehiveMixin.gm$intact",
+      "mixin.AncientBeehiveMixin.gm$keepBees"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/recolte_intacte.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/recolte_intacte.json"
+  },
+  {
+    "id": "recuperation",
+    "name_fr": "Récupération",
+    "name_en": "Recovery",
+    "effect_fr": "Régénère progressivement la vie après une période hors combat.",
+    "effect_en": "Slowly restores health after a period without taking damage.",
+    "target_fr": "Plastrons / Armures de cheval / Armure de loup",
+    "target_en": "Chestplates / Horse armor / Wolf armor",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:copper_horse_armor",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_horse_armor",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_horse_armor",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_horse_armor",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_horse_armor",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_horse_armor",
+      "minecraft:wolf_armor"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/recuperation.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/recuperation.json"
+  },
+  {
+    "id": "rempart",
+    "name_fr": "Rempart",
+    "name_en": "Bulwark",
+    "effect_fr": "Interagit avec la protection d’alliés proches pendant un blocage.",
+    "effect_en": "Interacts with the protection of nearby allies while blocking.",
+    "target_fr": "Boucliers",
+    "target_en": "Shields",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:explosive_shield",
+      "minecraft:shield"
+    ],
+    "hooks": [
+      "AncientEffects.lambda$damage$0"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/rempart.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/rempart.json"
+  },
+  {
+    "id": "renvoi",
+    "name_fr": "Renvoi",
+    "name_en": "Deflection",
+    "effect_fr": "Peut renvoyer un projectile frappant un bouclier.",
+    "effect_en": "May reflect projectiles striking a shield.",
+    "target_fr": "Boucliers",
+    "target_en": "Shields",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:explosive_shield",
+      "minecraft:shield"
+    ],
+    "hooks": [
+      "AncientEffects.block"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/renvoi.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/renvoi.json"
+  },
+  {
+    "id": "replantation",
+    "name_fr": "Replantation",
+    "name_en": "Replanting",
+    "effect_fr": "Replace automatiquement une culture après récolte, si possible.",
+    "effect_en": "Automatically replants harvested crops when possible.",
+    "target_fr": "Houes",
+    "target_en": "Hoes",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:netherite_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:wooden_hoe"
+    ],
+    "hooks": [
+      "AncientTools.broken"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/replantation.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/replantation.json"
+  },
+  {
+    "id": "repli",
+    "name_fr": "Repli",
+    "name_en": "Retreat",
+    "effect_fr": "Augmente la vitesse de fuite quand la vie est faible.",
+    "effect_en": "Increases movement speed at low health.",
+    "target_fr": "Jambières",
+    "target_en": "Leggings",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_leggings",
+      "minecraft:copper_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:golden_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:leather_leggings",
+      "minecraft:netherite_leggings"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/repli.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/repli.json"
+  },
+  {
+    "id": "second_souffle",
+    "name_fr": "Second souffle",
+    "name_en": "Second Wind",
+    "effect_fr": "Rend un peu de vie après un blocage réussi, avec délai de recharge.",
+    "effect_en": "Heals slightly after a successful block, subject to a cooldown.",
+    "target_fr": "Boucliers",
+    "target_en": "Shields",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:explosive_shield",
+      "minecraft:shield"
+    ],
+    "hooks": [
+      "AncientEffects.block"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/second_souffle.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/second_souffle.json"
+  },
+  {
+    "id": "soin_du_cavalier",
+    "name_fr": "Soin du cavalier",
+    "name_en": "Rider Care",
+    "effect_fr": "Soigne progressivement la monture pilotée hors combat.",
+    "effect_en": "Periodically heals the ridden mount when not in combat.",
+    "target_fr": "Canne à carotte / Canne à champignon biscornu",
+    "target_en": "Carrot on a stick / Warped fungus on a stick",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/soin_du_cavalier.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/soin_du_cavalier.json"
+  },
+  {
+    "id": "stabilite",
+    "name_fr": "Stabilité",
+    "name_en": "Stability",
+    "effect_fr": "Accroît la résistance au recul de l’entité équipée.",
+    "effect_en": "Raises the wearer’s knockback resistance.",
+    "target_fr": "Plastrons",
+    "target_en": "Chestplates",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:leather_chestplate",
+      "minecraft:netherite_chestplate"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/stabilite.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/stabilite.json"
+  },
+  {
+    "id": "terrassement",
+    "name_fr": "Terrassement",
+    "name_en": "Excavation",
+    "effect_fr": "Creuse une zone de blocs adaptés à la pelle.",
+    "effect_en": "Excavates an area of shovel-mineable blocks.",
+    "target_fr": "Pelles",
+    "target_en": "Shovels",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_shovel",
+      "minecraft:diamond_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:netherite_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:wooden_shovel"
+    ],
+    "hooks": [
+      "AncientTools.broken"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/terrassement.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/terrassement.json"
+  },
+  {
+    "id": "toison",
+    "name_fr": "Toison",
+    "name_en": "Fleece",
+    "effect_fr": "Ajoute une unité de laine lorsque les conditions de tonte sont remplies.",
+    "effect_en": "Adds one wool item when suitable sheep-shearing conditions are met.",
+    "target_fr": "Cisailles",
+    "target_en": "Shears",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:shears"
+    ],
+    "hooks": [
+      "AncientUtility.spawned"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/toison.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/toison.json"
+  },
+  {
+    "id": "trait_lourd",
+    "name_fr": "Trait lourd",
+    "name_en": "Heavy Bolt",
+    "effect_fr": "Modifie les dégâts de projectile d’un arc.",
+    "effect_en": "Modifies bow projectile damage.",
+    "target_fr": "Arcs",
+    "target_en": "Bows",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:ancient_bow",
+      "minecraft:bow"
+    ],
+    "hooks": [
+      "AncientEffects.armor"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/trait_lourd.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/trait_lourd.json"
+  },
+  {
+    "id": "vampirisme",
+    "name_fr": "Vampirisme",
+    "name_en": "Vampirism",
+    "effect_fr": "Soigne l’attaquant de 2 points de vie lorsqu’il tue avec l’arme.",
+    "effect_en": "Heals the killer by 2 health points after a kill with the weapon.",
+    "target_fr": "Épées",
+    "target_en": "Swords",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_sword",
+      "minecraft:diamond_sword",
+      "minecraft:golden_sword",
+      "minecraft:iron_sword",
+      "minecraft:netherite_sword",
+      "minecraft:stone_sword",
+      "minecraft:wooden_sword"
+    ],
+    "hooks": [
+      "AncientEffects.kill"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/vampirisme.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/vampirisme.json"
+  },
+  {
+    "id": "vision_nocturne",
+    "name_fr": "Vision nocturne",
+    "name_en": "Night Vision",
+    "effect_fr": "Applique périodiquement la vision nocturne quand l’objet est équipé/utilisé.",
+    "effect_en": "Periodically grants night vision while the item is equipped or in use.",
+    "target_fr": "Casques / Longue-vue",
+    "target_en": "Helmets / Spyglass",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "golems_materiaux:diamond_crowned_helmet_1",
+      "golems_materiaux:diamond_crowned_helmet_2",
+      "golems_materiaux:diamond_crowned_helmet_3",
+      "golems_materiaux:diamond_crowned_helmet_4",
+      "golems_materiaux:diamond_crowned_helmet_5",
+      "golems_materiaux:diamond_crowned_helmet_6",
+      "golems_materiaux:diamond_crowned_helmet_7",
+      "golems_materiaux:netherite_crowned_helmet_1",
+      "golems_materiaux:netherite_crowned_helmet_2",
+      "golems_materiaux:netherite_crowned_helmet_3",
+      "golems_materiaux:netherite_crowned_helmet_4",
+      "golems_materiaux:netherite_crowned_helmet_5",
+      "golems_materiaux:netherite_crowned_helmet_6",
+      "golems_materiaux:netherite_crowned_helmet_7",
+      "minecraft:chainmail_helmet",
+      "minecraft:copper_helmet",
+      "minecraft:diamond_helmet",
+      "minecraft:golden_helmet",
+      "minecraft:iron_helmet",
+      "minecraft:leather_helmet",
+      "minecraft:netherite_helmet",
+      "minecraft:spyglass",
+      "minecraft:turtle_helmet"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/vision_nocturne.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/vision_nocturne.json"
+  },
+  {
+    "id": "vitalite",
+    "name_fr": "Vitalité",
+    "name_en": "Vitality",
+    "effect_fr": "Accorde un bonus de 4 points au maximum de vie.",
+    "effect_en": "Adds 4 points of maximum health.",
+    "target_fr": "Plastrons",
+    "target_en": "Chestplates",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:chainmail_chestplate",
+      "minecraft:copper_chestplate",
+      "minecraft:diamond_chestplate",
+      "minecraft:golden_chestplate",
+      "minecraft:iron_chestplate",
+      "minecraft:leather_chestplate",
+      "minecraft:netherite_chestplate"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/vitalite.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/vitalite.json"
+  },
+  {
+    "id": "vitalite_animale",
+    "name_fr": "Vitalité animale",
+    "name_en": "Animal Vitality",
+    "effect_fr": "Accorde un bonus de 8 points au maximum de vie d’une monture/animal.",
+    "effect_en": "Adds 8 points of maximum health for an animal or mount.",
+    "target_fr": "Armures de cheval",
+    "target_en": "Horse armor",
+    "max_level": 1,
+    "weight": 3,
+    "anvil_cost": 1,
+    "supported_items": [
+      "minecraft:copper_horse_armor",
+      "minecraft:diamond_horse_armor",
+      "minecraft:golden_horse_armor",
+      "minecraft:iron_horse_armor",
+      "minecraft:leather_horse_armor",
+      "minecraft:netherite_horse_armor"
+    ],
+    "hooks": [
+      "AncientEffects.tick"
+    ],
+    "test_in_game_required": true,
+    "code_jar": "META-INF/jars/companions-26.3.jar",
+    "resource_definition": "data/golems_materiaux/enchantment/vitalite_animale.json",
+    "resource_item_tag": "data/golems_materiaux/tags/item/enchantable/vitalite_animale.json"
+  }
+]
