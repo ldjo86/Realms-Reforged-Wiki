@@ -1,0 +1,26 @@
+{
+  "source_jar": "golems-materiaux-1.13.1-mc26.1-26.3-fabric.jar",
+  "scope": "Provided JAR only; no 1.21.x JAR was inspected",
+  "asset_paths_in_jar": "assets/golems_materiaux/textures/entity/golem/",
+  "png_file_count": 16,
+  "unique_image_sha256_count": 4,
+  "sha256_by_filename": {
+    "diamond.png": "37b8337e08ce66f82218b332fc6059795389f3d59836cfb3108d458190e20416",
+    "diamond_crackiness_high.png": "17c47555e853fee0b8dad387e9bc6997405815bf21bc7d927e8e5c06eb61dc5c",
+    "diamond_crackiness_low.png": "dc8831ac7e7353c547ff9bcb9791e61da610350ac504b28aca637bda8d9f76e3",
+    "diamond_crackiness_medium.png": "9c093768025987dc381b15f82ad831dcb3c7d8f8a23b6e11b9fd2200e1e6b642",
+    "emerald.png": "37b8337e08ce66f82218b332fc6059795389f3d59836cfb3108d458190e20416",
+    "emerald_crackiness_high.png": "17c47555e853fee0b8dad387e9bc6997405815bf21bc7d927e8e5c06eb61dc5c",
+    "emerald_crackiness_low.png": "dc8831ac7e7353c547ff9bcb9791e61da610350ac504b28aca637bda8d9f76e3",
+    "emerald_crackiness_medium.png": "9c093768025987dc381b15f82ad831dcb3c7d8f8a23b6e11b9fd2200e1e6b642",
+    "gold.png": "37b8337e08ce66f82218b332fc6059795389f3d59836cfb3108d458190e20416",
+    "gold_crackiness_high.png": "17c47555e853fee0b8dad387e9bc6997405815bf21bc7d927e8e5c06eb61dc5c",
+    "gold_crackiness_low.png": "dc8831ac7e7353c547ff9bcb9791e61da610350ac504b28aca637bda8d9f76e3",
+    "gold_crackiness_medium.png": "9c093768025987dc381b15f82ad831dcb3c7d8f8a23b6e11b9fd2200e1e6b642",
+    "netherite.png": "37b8337e08ce66f82218b332fc6059795389f3d59836cfb3108d458190e20416",
+    "netherite_crackiness_high.png": "17c47555e853fee0b8dad387e9bc6997405815bf21bc7d927e8e5c06eb61dc5c",
+    "netherite_crackiness_low.png": "dc8831ac7e7353c547ff9bcb9791e61da610350ac504b28aca637bda8d9f76e3",
+    "netherite_crackiness_medium.png": "9c093768025987dc381b15f82ad831dcb3c7d8f8a23b6e11b9fd2200e1e6b642"
+  },
+  "readme": "Files with equal SHA-256 are byte-for-byte identical in the audited JAR. This does not establish the rendered appearance in every build."
+}

@@ -1,8 +1,26 @@
 # Material Golems — Gold, Emerald, Diamond and Netherite
 
-Realms Reforged gives four **native textured iron-golem variants**, including three visible crack textures for each. They are variants of `minecraft:iron_golem` controlled by the `dg` datapack with tags and teams, **not four separately registered entity types**.
+Realms Reforged has four iron-golem material variants (gold, emerald, diamond and netherite). The audited 1.13.1 / 26.x JAR contains **16 named texture paths**, but only **four distinct PNG image contents**: one shared base skin and three shared crack stages. The same conclusion must **not** be assumed for unexamined 1.21.x builds. These are variants of `minecraft:iron_golem` controlled by the `dg` datapack with tags and teams, **not four separately registered entity types**.
 
-![Gold golem](../assets/textures/golems/gold.png) ![Emerald golem](../assets/textures/golems/emerald.png) ![Diamond golem](../assets/textures/golems/diamond.png) ![Netherite golem](../assets/textures/golems/netherite.png)
+## Texture verification — important
+
+⚠️ **The four preview images previously shown here were misleading.** Byte-for-byte comparison of the audited JAR demonstrates that:
+
+| Packaged PNGs | Result |
+|---|---|
+| `gold.png`, `emerald.png`, `diamond.png`, `netherite.png` | **All four identical**, 128 × 128 pixels |
+| `*_crackiness_low.png` | Identical across all four materials |
+| `*_crackiness_medium.png` | Identical across all four materials |
+| `*_crackiness_high.png` | Identical across all four materials |
+
+The class `fr/golems/client/GolemTextures.class` chooses a texture path based on teams named `dgp_gold`, `dgp_emerald`, `dgp_diamond` and `dgp_netherite`; however, **distinct paths do not guarantee visually distinct source textures**. These static files alone cannot confirm the final in-game appearance or the appearance in other JAR versions.
+
+**One representative raw base PNG** from this exact JAR (not a 3D gameplay render):
+
+![Shared golem base PNG in the audited archive](../assets/textures/golems/gold.png)
+
+We will replace this placeholder preview **only after inspecting authentic distinct textures from another verified build or original assets**. The packaged source images themselves are retained unchanged. [Texture gallery](Textures-Gallery-EN.md) · [SHA-256 inventory of all 16 PNGs](../inventory/golem-texture-sha256.json).
+
 
 ## Natural generation
 

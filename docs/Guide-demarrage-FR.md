@@ -2,8 +2,8 @@
 
 **Realms Reforged** enrichit les villages, l'exploration, le combat, les compagnons et l'artisanat : quatre variantes de golems, Illageois guérissables, professions, boss, contrats et plus de 70 enchantements.
 
-1. Installe **Minecraft Java 26.1 à 26.3**, **Fabric Loader 0.19.5+**, la **Fabric API correspondante** et **Java 25+**.
-2. Place **un seul** JAR `golems-materiaux-1.13.1-mc26.1-26.3-fabric.jar` dans `mods`. Les cinq modules de version sont déjà dedans.
+1. Choisis la **distribution JAR adaptée à ton Minecraft** : famille **1.21–1.21.11** ou **26.1–26.3**. Ce sont deux JAR distincts ; [voir les exigences par famille](Installation-Compatibility.md).
+2. Place **un seul JAR** de ton choix dans `mods`. Pour **le JAR 1.13.1 / 26.x audité**, les métadonnées demandent Fabric Loader 0.19.5+, la Fabric API correspondante et Java 25+. Les exigences du **JAR 1.21.x** doivent être lues dans ce fichier distinct ; les cinq modules 26.x sont déjà embarqués dans la distribution 26.x.
 3. Sur serveur, mets Fabric API et le mod côté serveur **et client** pour les textures intégrées.
 4. Sauvegarde ton monde et retire l'ancien datapack Golems si tu passes de sa version ZIP au mod.
 5. Explore un village : les golems naturels varient selon le nombre de villageois voisins. Construire un golem vanilla à la main ne force pas ces variantes.

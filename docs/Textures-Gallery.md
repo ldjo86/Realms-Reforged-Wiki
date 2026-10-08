@@ -2,24 +2,15 @@
 
 **Ces images sont les textures internes du mod** ; elles ne sont pas des captures du rendu des entités en 3D.
 
-## Golems (16)
+## Golems (16 fichiers, seulement 4 images distinctes dans le JAR analysé)
 
-<img src="../assets/textures/golems/diamond.png" alt="diamond" width="80" height="80" /> `diamond`  
-<img src="../assets/textures/golems/diamond_crackiness_high.png" alt="diamond_crackiness_high" width="80" height="80" /> `diamond_crackiness_high`  
-<img src="../assets/textures/golems/diamond_crackiness_low.png" alt="diamond_crackiness_low" width="80" height="80" /> `diamond_crackiness_low`  
-<img src="../assets/textures/golems/diamond_crackiness_medium.png" alt="diamond_crackiness_medium" width="80" height="80" /> `diamond_crackiness_medium`  
-<img src="../assets/textures/golems/emerald.png" alt="emerald" width="80" height="80" /> `emerald`  
-<img src="../assets/textures/golems/emerald_crackiness_high.png" alt="emerald_crackiness_high" width="80" height="80" /> `emerald_crackiness_high`  
-<img src="../assets/textures/golems/emerald_crackiness_low.png" alt="emerald_crackiness_low" width="80" height="80" /> `emerald_crackiness_low`  
-<img src="../assets/textures/golems/emerald_crackiness_medium.png" alt="emerald_crackiness_medium" width="80" height="80" /> `emerald_crackiness_medium`  
-<img src="../assets/textures/golems/gold.png" alt="gold" width="80" height="80" /> `gold`  
-<img src="../assets/textures/golems/gold_crackiness_high.png" alt="gold_crackiness_high" width="80" height="80" /> `gold_crackiness_high`  
-<img src="../assets/textures/golems/gold_crackiness_low.png" alt="gold_crackiness_low" width="80" height="80" /> `gold_crackiness_low`  
-<img src="../assets/textures/golems/gold_crackiness_medium.png" alt="gold_crackiness_medium" width="80" height="80" /> `gold_crackiness_medium`  
-<img src="../assets/textures/golems/netherite.png" alt="netherite" width="80" height="80" /> `netherite`  
-<img src="../assets/textures/golems/netherite_crackiness_high.png" alt="netherite_crackiness_high" width="80" height="80" /> `netherite_crackiness_high`  
-<img src="../assets/textures/golems/netherite_crackiness_low.png" alt="netherite_crackiness_low" width="80" height="80" /> `netherite_crackiness_low`  
-<img src="../assets/textures/golems/netherite_crackiness_medium.png" alt="netherite_crackiness_medium" width="80" height="80" /> `netherite_crackiness_medium`  
+**Important :** les quatre textures principales sont exactement les mêmes pixels. Les PNG de fissures sont également identiques entre les matériaux pour chaque niveau d'endommagement. Ces images sont des *planches de texture*, pas des rendus 3D. Voir [l'analyse des textures de golems](Golems-FR.md#textures--vérification-des-fichiers-du-jar).
+
+| Base (commune) | Fissures faibles | Fissures moyennes | Fissures fortes |
+|---|---|---|---|
+| ![Base](../assets/textures/golems/gold.png) | ![Fissures faibles](../assets/textures/golems/gold_crackiness_low.png) | ![Fissures moyennes](../assets/textures/golems/gold_crackiness_medium.png) | ![Fissures fortes](../assets/textures/golems/gold_crackiness_high.png) |
+
+Les quatre familles de fichiers **sont conservées** dans le dépôt : [`gold`](../assets/textures/golems/gold.png), [`emerald`](../assets/textures/golems/emerald.png), [`diamond`](../assets/textures/golems/diamond.png), [`netherite`](../assets/textures/golems/netherite.png) (avec leurs trois fichiers `*_crackiness_*.png` respectifs). Leur nom ne constitue pas une preuve d'apparence différente dans cette version.
 
 ## Créatures / Creatures (9)
 

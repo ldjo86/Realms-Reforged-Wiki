@@ -2,11 +2,11 @@
 
 **[🇬🇧 English](README.md)** · [Page du mod sur CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged)
 
-**Version documentée : 1.13.1** · **Minecraft Java 26.1–26.3** · **Fabric** · **Java 25+**
+**Mod proposé pour plusieurs familles Minecraft : 1.21–1.21.11 et 26.1–26.3 (JAR distincts)** · **Audit détaillé du JAR 1.13.1 / 26.x** · **Fabric**
 
 **Realms Reforged** améliore l'aventure et la survie Minecraft : nouveaux golems, Illageois guérissables, compagnons commandables, professions, mini-boss, trois Maîtres, contrats, arbres dorés, équipements et **72 enchantements**. Le JAR s'appelle `golems-materiaux` pour des raisons internes ; c'est bien le mod publié sur CurseForge sous le titre **Realms Reforged**.
 
-<p><img src="assets/textures/golems/gold.png" width="98" alt="or" /> <img src="assets/textures/golems/emerald.png" width="98" alt="émeraude" /> <img src="assets/textures/golems/diamond.png" width="98" alt="diamant" /> <img src="assets/textures/golems/netherite.png" width="98" alt="netherite" /></p>
+> **Note sur les golems :** les quatre PNG de base livrés dans le JAR **1.13.1 / 26.x** analysé sont identiques, de même que leurs trois variantes de fissures. Les quatre images affichées autrefois ici ne représentaient donc pas quatre apparences distinctes. Voir [l’analyse des textures](docs/Golems-FR.md#textures--vérification-des-fichiers-du-jar). Les apparences en jeu et les fichiers d’autres JAR sont à confirmer.
 
 ## 📚 Toutes les rubriques
 
@@ -29,11 +29,11 @@
 
 ## 📌 Installation rapide
 
-Installe **Fabric Loader 0.19.5 ou plus**, **Fabric API** compatible et **Java 25 ou plus**. Mets **un seul JAR** du mod dans `mods`. Sur serveur multijoueur, installe-le également côté serveur. Pense à sauvegarder ton monde et à retirer l'ancien datapack ZIP des golems en cas de migration.
+**Choisis le JAR qui correspond à ta version exacte de Minecraft** (famille 1.21.x ou 26.x) ; n’installe pas les deux en même temps. Pour **le JAR 1.13.1 / 26.x analysé**, les métadonnées déclarent Fabric Loader 0.19.5+, Fabric API et Java 25+. **Ne transpose pas ces minima automatiquement aux JAR 1.21.x** : vérifie leurs propres métadonnées. En multijoueur, suis les exigences client/serveur du JAR choisi. Sauvegarde le monde et retire l’ancien datapack ZIP des golems si tu migres.
 
 ## ⚠️ Important sur les versions
 
-La documentation utilise le **JAR 1.13.1 fourni par le développeur**, tandis que la dernière version affichée sur CurseForge au moment de la consultation était encore **1.13.0**. Les nouvelles fonctionnalités présentes dans ce JAR ne doivent pas être attribuées à une ancienne version sans vérification.
+**Realms Reforged ne se limite pas aux versions 26.x.** Le fichier `INSTALLATION.md` du JAR étudié mentionne deux distributions séparées : `mc1.21-1.21.11` et `mc26.1-26.3` ; la [liste publique des fichiers CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged/files/all) permet de consulter les publications. **L’audit détaillé de ce wiki concerne uniquement `golems-materiaux-1.13.1-mc26.1-26.3-fabric.jar`**, et ne garantit pas les mêmes contenus ni exigences pour un autre fichier. [Détails par version](docs/Version-et-provenance.md).
 
 Les descriptions d'enchantements viennent du code Java et des ressources internes ; les conditions exactes, statistiques et taux d'apparition restent à confirmer en jeu. Ce dépôt n'héberge ni le code source du mod ni son binaire : il héberge uniquement le **wiki**, les inventaires documentaires et des textures du mod.
 

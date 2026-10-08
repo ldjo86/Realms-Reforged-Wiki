@@ -18,6 +18,12 @@
 
 ## Anomalies et améliorations recommandées
 
+### P1 — Textures des quatre golems dupliquées dans le JAR 26.x
+
+Une comparaison binaire du JAR `golems-materiaux-1.13.1-mc26.1-26.3-fabric.jar` montre **16 chemins PNG pour quatre contenus distincts** : tous les `gold.png`, `emerald.png`, `diamond.png` et `netherite.png` sont identiques (128 × 128 pixels) ; les fichiers de fissures pour chaque stade (`low`, `medium`, `high`) sont aussi identiques entre les quatre matériaux. La classe `GolemTextures.class` choisit les chemins par équipe (`dgp_gold`, `dgp_emerald`, `dgp_diamond`, `dgp_netherite`) mais ces chemins pointent vers des images au même contenu. La documentation présentait auparavant quatre aperçus côte à côte comme s'ils montraient quatre skins distincts : **présentation corrigée** dans les README, les pages Golems et la galerie. Les [empreintes SHA-256 de chaque PNG](../inventory/golem-texture-sha256.json) permettent de vérifier le diagnostic.
+
+**À vérifier dans le projet du mod (pas corrigé dans le JAR ici) :** provenance des textures au build ; remplacer les 4 skins de base et 12 overlays par les ressources authentiques si elles doivent être propres à chaque matériau ; compiler et tester visuellement la sélection au rendu. Un JAR pour **Minecraft 1.21.x** est signalé par `INSTALLATION.md` mais n'est pas disponible dans cet audit ; ne pas affirmer que ses textures présentent la même anomalie.
+
 ### P1 — Traduction française corrompue
 
 **39 valeurs** des 291 entrées françaises contiennent des séquences de mojibake. Exemples : `MaÃ®tre`, `BanniÃ¨re`, `Fragment dâ€™os`. La correction `patches/fr_fr-repaired.json` est proposée séparément, sans modifier le JAR d'origine. Vérifier visuellement les libellés en jeu après intégration.
@@ -44,7 +50,7 @@ Les cinq JARs embarqués ont le même identifiant de mod `golems_companions`, av
 
 ### P3 — Documents présents dans le JAR
 
-Le document `INSTALLATION.md` intégré rappelle l'existence d'un JAR distinct pour Minecraft 1.21.x ; celui-ci n'est pas inclus ici. Ne pas présenter ce fichier 26.x comme compatible Java 1.21.x sans autre binaire.
+Le document `INSTALLATION.md` intégré mentionne explicitement **deux distributions** : `mc1.21-1.21.11` et `mc26.1-26.3`. CurseForge présente également des fichiers par famille de versions Minecraft. Le présent audit est **celui du binaire 26.x uniquement** : l’existence du JAR 1.21.x n’autorise pas à lui attribuer les dépendances, contenus ou défauts du build 26.x sans l’avoir inspecté.
 
 ### P3 — Documentation des enchantements
 

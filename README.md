@@ -2,11 +2,11 @@
 
 [**🇫🇷 Français**](README.fr.md) | **🇬🇧 English** | [CurseForge: Realms Reforged](https://www.curseforge.com/minecraft/mc-mods/realms-reforged)
 
-> **Wiki version:** 1.13.1 • **Minecraft Java:** 26.1–26.3 • **Loader:** Fabric • **Documentation status:** JAR-derived, gameplay checks pending.
+> **Project versions:** separate Minecraft 1.21–1.21.11 and 26.1–26.3 JAR families • **Technical audit:** the supplied 1.13.1 / 26.x JAR only • **Loader:** Fabric • **Status:** archive-derived, in-game checks pending.
 
 **Realms Reforged** is a broad Minecraft expansion focused on material golems, companions and cured Illagers, new professions, enemy factions, boss encounters, bounty hunts, structures, advanced equipment, golden forests and 72 custom enchantments. The project is called **Realms Reforged on CurseForge**, while the distributed JAR uses the internal name `golems-materiaux` (`golems_materiaux` mod id) and includes a `golems_companions` module.
 
-<p><img src="assets/textures/golems/gold.png" width="98" alt="gold" /> <img src="assets/textures/golems/emerald.png" width="98" alt="emerald" /> <img src="assets/textures/golems/diamond.png" width="98" alt="diamond" /> <img src="assets/textures/golems/netherite.png" width="98" alt="netherite" /></p>
+> **Golem artwork note:** the four base PNGs bundled in the **audited 1.13.1 / 26.x JAR** are byte-for-byte identical, as are the corresponding crack overlays at each damage level. The previously displayed four previews therefore did **not** show distinct material skins. See the [texture verification](docs/Material-Golems-EN.md#texture-verification--important). The appearance in-game and other JAR releases still require verification.
 
 ## 📖 Main wiki sections
 
@@ -29,11 +29,12 @@
 
 ## ⚙️ Installation
 
-1. Install Fabric Loader **0.19.5+**, the matching Fabric API and **Java 25+**.
-2. Put the **single outer JAR** into `.minecraft/mods` (server and client for multiplayer).
-3. Make a world backup and remove any previous standalone Golems datapack to avoid duplicated mechanics.
+1. Pick the **JAR for your exact Minecraft version**: the project has separate `mc1.21-1.21.11` and `mc26.1-26.3` builds; do **not** install both together.
+2. **Only the audited 1.13.1 / 26.x JAR** declares Fabric Loader 0.19.5+, the matching Fabric API and Java 25+. Check each **1.21.x JAR’s own metadata** before applying those requirements.
+3. Place the selected JAR in `.minecraft/mods` and follow its multiplayer installation requirements.
+4. Make a world backup and remove any previous standalone Golems datapack to avoid duplicated mechanics.
 
-**Version note:** the source archive supplied for this wiki is **1.13.1**. When last checked, the public CurseForge download listing displayed **1.13.0**; do not confuse the wiki's audit version with the public release.
+**Version note:** the audited archive is `golems-materiaux-1.13.1-mc26.1-26.3-fabric.jar`. The bundled `INSTALLATION.md` also mentions a **separate Minecraft 1.21–1.21.11 build**, and [CurseForge’s file list](https://www.curseforge.com/minecraft/mc-mods/realms-reforged/files/all) shows published builds by Minecraft version. **Do not extrapolate 26.x audit findings, Java requirements, or gameplay behavior to 1.21.x without analysing its JAR.** [Version coverage](docs/Version-et-provenance.md).
 
 ## 🧾 Evidence and limitations
 
