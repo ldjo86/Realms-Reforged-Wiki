@@ -6,7 +6,15 @@
 
 **Realms Reforged** améliore l'aventure et la survie Minecraft : nouveaux golems, Illageois guérissables, compagnons commandables, professions, mini-boss, trois Maîtres, contrats, arbres dorés, équipements et **72 enchantements**. Le JAR s'appelle `golems-materiaux` pour des raisons internes ; c'est bien le mod publié sur CurseForge sous le titre **Realms Reforged**.
 
-> **Note sur les golems :** les quatre PNG de base livrés dans le JAR **1.13.1 / 26.x** analysé sont identiques, de même que leurs trois variantes de fissures. Les quatre images affichées autrefois ici ne représentaient donc pas quatre apparences distinctes. Voir [l’analyse des textures](docs/Golems-FR.md#textures--vérification-des-fichiers-du-jar). Les apparences en jeu et les fichiers d’autres JAR sont à confirmer.
+> **Découvrir les créatures en jeu :** le wiki présente les pouvoirs des golems, compagnons et boss sans montrer leurs skins, textures ni silhouettes. L'auteur choisira les photos à révéler sur CurseForge.
+
+## 🎮 Conseils pour commencer
+
+Pour découvrir **Realms Reforged**, commence par assurer les défenses de ton village. L'évolution des golems naturels dépend de la population locale : le mod propose quatre variantes aux rôles différents. Tu peux ensuite t'intéresser à la guérison d'un Illageois infecté, recruter des compagnons et leur donner des ordres.
+
+Les contrats de chasse, nouveaux métiers, enchantements et rencontres contre les Maîtres offrent ensuite des objectifs à poursuivre à ton rythme. **Les images sont réservées aux blocs, objets et recettes**, pour préserver le plaisir de rencontrer les créatures dans le jeu.
+
+[Guide de démarrage](docs/Guide-demarrage-FR.md) · [Golems et capacités](docs/Golems-FR.md) · [Créatures et alliés](docs/Creatures-et-compagnons-FR.md) · [Recettes](docs/Recettes-FR.md)
 
 ## 📚 Toutes les rubriques
 
@@ -23,7 +31,7 @@
 | [🛠️ Les 44 recettes exactes](docs/Recettes-FR.md) | Patrons, ingrédients et table de forge |
 | [📦 Index objets et blocs](docs/Index-objets-FR.md) | Tous les noms et identifiants localisés |
 | [🧪 Modifications vanilla](docs/Vanilla-compatibilite-FR.md) | Recettes remplacées et butins |
-| [🎨 Les 82 textures](docs/Textures-Gallery.md) | Images originales extraites du JAR |
+| [🎨 Blocs et objets illustrés](docs/Textures-Gallery.md) | 31 textures d'objets et 26 de blocs ; créatures préservées des spoilers |
 | [🔎 Versions embarquées](docs/Version-et-provenance.md) | Versions Minecraft et modules Fabric |
 | [🧾 Audit technique](docs/AUDIT-technique-FR.md) | Anomalies, corrections proposées et limites des tests |
 
@@ -35,6 +43,6 @@
 
 **Realms Reforged ne se limite pas aux versions 26.x.** Le fichier `INSTALLATION.md` du JAR étudié mentionne deux distributions séparées : `mc1.21-1.21.11` et `mc26.1-26.3` ; la [liste publique des fichiers CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged/files/all) permet de consulter les publications. **L’audit détaillé de ce wiki concerne uniquement `golems-materiaux-1.13.1-mc26.1-26.3-fabric.jar`**, et ne garantit pas les mêmes contenus ni exigences pour un autre fichier. [Détails par version](docs/Version-et-provenance.md).
 
-Les descriptions d'enchantements viennent du code Java et des ressources internes ; les conditions exactes, statistiques et taux d'apparition restent à confirmer en jeu. Ce dépôt n'héberge ni le code source du mod ni son binaire : il héberge uniquement le **wiki**, les inventaires documentaires et des textures du mod.
+Les descriptions d'enchantements viennent du code Java et des ressources internes ; les conditions exactes, statistiques et taux d'apparition restent à confirmer en jeu. Ce dépôt n'héberge ni le code source du mod ni son binaire : il héberge uniquement le **wiki**, les inventaires documentaires et les illustrations des **blocs et objets**, sans modèles ni textures d'entités personnalisées.
 
 **[Page officielle CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged)** · Licence indiquée par CurseForge : **All Rights Reserved**.

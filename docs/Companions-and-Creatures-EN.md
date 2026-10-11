@@ -1,17 +1,17 @@
-# Companions, Illagers, creatures and bosses
+# Companions, Illagers, creatures and bosses — gameplay guide
 
-The integrated `golems_companions` module registers eight custom entity identifiers in its 26.3 code. Original bundled textures are reproduced below; they are **source textures, not 3D in-game screenshots**.
+Realms Reforged introduces **curable Illagers, customizable allies and companion golems**, plus hostile creatures, minibosses and the three Masters. This documentation describes what they add to survival without publishing character textures or 3D previews.
 
-| Entity registry id | Texture preview |
+## Encounters and their roles
+
+| Category | New possibilities |
 |---|---|
-| `illageois_demi_squelette` | ![](../assets/textures/creatures/illageois_demi_squelette.png) |
-| `illageois_zombifie` | ![](../assets/textures/creatures/illageois_zombifie.png) |
-| `illageois_gueri` | ![](../assets/textures/creatures/illageois_gueri.png) |
-| `goule` | ![](../assets/textures/creatures/goule.png) |
-| `demon_commandant` | ![](../assets/textures/creatures/demon_commandant.png) |
-| `maitre_squelette` | ![](../assets/textures/creatures/maitre_squelette.png) |
-| `maitre_des_zombies` | ![](../assets/textures/creatures/maitre_des_zombies.png) |
-| `maitre_creeper` | ![](../assets/textures/creatures/maitre_creeper.png) |
+| **Infected and cured Illagers** | Rescue and recruit allies, with the right items and conditions |
+| **Companions and patrols** | Equip members, issue orders, protect settlements |
+| **Hostile creatures and minibosses** | New encounters and combat progression |
+| **Three Masters** | Skeleton, Zombie and Creeper Masters with boss challenges |
+
+**No creature appearance spoilers:** the author will choose the first official screenshots for [CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged).
 
 ## Player allies and curing
 
@@ -21,4 +21,4 @@ The project describes curing a **zombified Illager** with Weakness + Golden Appl
 
 The three Masters are Skeleton Master, Zombie Master and Creeper Master. The project also names the Giant Ghoul, Zombified Champion, Half-Skeleton Champion and altered vanilla mini-boss encounters. Boss trophies, rare drops and special crowns are included; exact rarity and combat values still need a gameplay test.
 
-**Sources:** the shipped `CustomEntities`, `MiniBosses`, `MasterMobs`, `CompanionGolem`, `LeaderOrders` classes, resource textures, and the official [CurseForge project description](https://www.curseforge.com/minecraft/mc-mods/realms-reforged).
+**Sources:** the shipped `CustomEntities`, `MiniBosses`, `MasterMobs`, `CompanionGolem`, `LeaderOrders` classes, and the official [CurseForge project description](https://www.curseforge.com/minecraft/mc-mods/realms-reforged).

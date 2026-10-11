@@ -1,28 +1,8 @@
-# Galerie des textures originales du JAR
+# Galerie des objets et blocs — Realms Reforged
 
-**Ces images sont les textures internes du mod** ; elles ne sont pas des captures du rendu des entités en 3D.
+Découvrez les **31 textures d'objets** et les **26 textures de blocs** extraites du JAR 1.13.1 / 26.x. Les images originales des golems, compagnons, créatures et boss **ne sont pas publiées dans le wiki**, pour conserver le plaisir de les découvrir dans Minecraft.
 
-## Golems (16 fichiers, seulement 4 images distinctes dans le JAR analysé)
-
-**Important :** les quatre textures principales sont exactement les mêmes pixels. Les PNG de fissures sont également identiques entre les matériaux pour chaque niveau d'endommagement. Ces images sont des *planches de texture*, pas des rendus 3D. Voir [l'analyse des textures de golems](Golems-FR.md#textures--vérification-des-fichiers-du-jar).
-
-| Base (commune) | Fissures faibles | Fissures moyennes | Fissures fortes |
-|---|---|---|---|
-| ![Base](../assets/textures/golems/gold.png) | ![Fissures faibles](../assets/textures/golems/gold_crackiness_low.png) | ![Fissures moyennes](../assets/textures/golems/gold_crackiness_medium.png) | ![Fissures fortes](../assets/textures/golems/gold_crackiness_high.png) |
-
-Les quatre familles de fichiers **sont conservées** dans le dépôt : [`gold`](../assets/textures/golems/gold.png), [`emerald`](../assets/textures/golems/emerald.png), [`diamond`](../assets/textures/golems/diamond.png), [`netherite`](../assets/textures/golems/netherite.png) (avec leurs trois fichiers `*_crackiness_*.png` respectifs). Leur nom ne constitue pas une preuve d'apparence différente dans cette version.
-
-## Créatures / Creatures (9)
-
-<img src="../assets/textures/creatures/demon_commandant.png" alt="demon_commandant" width="80" height="80" /> `demon_commandant`  
-<img src="../assets/textures/creatures/explosive_shield.png" alt="explosive_shield" width="80" height="80" /> `explosive_shield`  
-<img src="../assets/textures/creatures/goule.png" alt="goule" width="80" height="80" /> `goule`  
-<img src="../assets/textures/creatures/illageois_demi_squelette.png" alt="illageois_demi_squelette" width="80" height="80" /> `illageois_demi_squelette`  
-<img src="../assets/textures/creatures/illageois_gueri.png" alt="illageois_gueri" width="80" height="80" /> `illageois_gueri`  
-<img src="../assets/textures/creatures/illageois_zombifie.png" alt="illageois_zombifie" width="80" height="80" /> `illageois_zombifie`  
-<img src="../assets/textures/creatures/maitre_creeper.png" alt="maitre_creeper" width="80" height="80" /> `maitre_creeper`  
-<img src="../assets/textures/creatures/maitre_des_zombies.png" alt="maitre_des_zombies" width="80" height="80" /> `maitre_des_zombies`  
-<img src="../assets/textures/creatures/maitre_squelette.png" alt="maitre_squelette" width="80" height="80" /> `maitre_squelette`  
+L'auteur choisira lui-même les captures de créatures à partager sur [CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged). Leurs mécaniques restent décrites dans [Golems](Golems-FR.md) et [Créatures, boss et compagnons](Creatures-et-compagnons-FR.md).
 
 ## Objets / Items (31)
 
@@ -86,3 +66,5 @@ Les quatre familles de fichiers **sont conservées** dans le dépôt : [`gold`](
 <img src="../assets/textures/blocks/skeleton_trophy.png" alt="skeleton_trophy" width="80" height="80" /> `skeleton_trophy`  
 <img src="../assets/textures/blocks/stripped_golden_log.png" alt="stripped_golden_log" width="80" height="80" /> `stripped_golden_log`  
 <img src="../assets/textures/blocks/stripped_golden_log_top.png" alt="stripped_golden_log_top" width="80" height="80" /> `stripped_golden_log_top`
+
+[Accueil du wiki](../README.fr.md)

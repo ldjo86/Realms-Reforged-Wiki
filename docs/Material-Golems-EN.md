@@ -1,26 +1,21 @@
 # Material Golems — Gold, Emerald, Diamond and Netherite
 
-Realms Reforged has four iron-golem material variants (gold, emerald, diamond and netherite). The audited 1.13.1 / 26.x JAR contains **16 named texture paths**, but only **four distinct PNG image contents**: one shared base skin and three shared crack stages. The same conclusion must **not** be assumed for unexamined 1.21.x builds. These are variants of `minecraft:iron_golem` controlled by the `dg` datapack with tags and teams, **not four separately registered entity types**.
+Realms Reforged expands Minecraft's iron golem encounters with **four material variants**, each carrying different combat or support abilities. This guide focuses on gameplay, without showing their appearance. The author will reveal screenshots at their discretion on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged).
 
-## Texture verification — important
+The audited 1.13.1 / 26.x JAR implements these as `minecraft:iron_golem` variants using tags and teams rather than separate registered creature types. Behaviour on other Minecraft versions must be checked against the corresponding JAR.
 
-⚠️ **The four preview images previously shown here were misleading.** Byte-for-byte comparison of the audited JAR demonstrates that:
+## Roles at a glance
 
-| Packaged PNGs | Result |
+| Variant | Gameplay specialty |
 |---|---|
-| `gold.png`, `emerald.png`, `diamond.png`, `netherite.png` | **All four identical**, 128 × 128 pixels |
-| `*_crackiness_low.png` | Identical across all four materials |
-| `*_crackiness_medium.png` | Identical across all four materials |
-| `*_crackiness_high.png` | Identical across all four materials |
+| **Gold** | Speed and attack strength |
+| **Emerald** | Healing nearby villagers and golems |
+| **Diamond** | Toughness, resistance and strength |
+| **Netherite** | Strong protection and attack buffs, with reduced mobility |
 
-The class `fr/golems/client/GolemTextures.class` chooses a texture path based on teams named `dgp_gold`, `dgp_emerald`, `dgp_diamond` and `dgp_netherite`; however, **distinct paths do not guarantee visually distinct source textures**. These static files alone cannot confirm the final in-game appearance or the appearance in other JAR versions.
+## Creature appearances are intentionally hidden
 
-**One representative raw base PNG** from this exact JAR (not a 3D gameplay render):
-
-![Shared golem base PNG in the audited archive](../assets/textures/golems/gold.png)
-
-We will replace this placeholder preview **only after inspecting authentic distinct textures from another verified build or original assets**. The packaged source images themselves are retained unchanged. [Texture gallery](Textures-Gallery-EN.md) · [SHA-256 inventory of all 16 PNGs](../inventory/golem-texture-sha256.json).
-
+This wiki no longer republishes golem textures, skins or raw UV layouts. The actual assets remain available in the mod's distribution and are intended to be discovered in-game. Technical audit notes do not replace in-game validation.
 
 ## Natural generation
 

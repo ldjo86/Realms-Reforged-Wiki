@@ -1,28 +1,8 @@
-# Original JAR texture gallery
+# Original item and block textures — Realms Reforged
 
-**These images come directly from the mod assets**, not from 3D gameplay screenshots.
+The gallery includes **31 item textures** and **26 block textures** from the audited 1.13.1 / 26.x JAR. **Golem, companion, custom mob and boss appearances are intentionally not displayed** until the author chooses which screenshots to reveal on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged).
 
-## Golems (16 files; only 4 distinct image contents in the audited JAR)
-
-**Important:** the four material base skins contain identical pixels. Crack overlays are also identical between materials at each damage level. These are *raw texture layouts*, not 3D in-game renders. See the [material-golem texture audit](Material-Golems-EN.md#texture-verification--important).
-
-| Shared base | Low cracks | Medium cracks | High cracks |
-|---|---|---|---|
-| ![Base](../assets/textures/golems/gold.png) | ![Low cracks](../assets/textures/golems/gold_crackiness_low.png) | ![Medium cracks](../assets/textures/golems/gold_crackiness_medium.png) | ![High cracks](../assets/textures/golems/gold_crackiness_high.png) |
-
-The complete set of **16 original named files** remains in the repository: [`gold`](../assets/textures/golems/gold.png), [`emerald`](../assets/textures/golems/emerald.png), [`diamond`](../assets/textures/golems/diamond.png), [`netherite`](../assets/textures/golems/netherite.png), each with three `*_crackiness_*.png` files. Different filenames do not imply different appearances in this JAR.
-
-## Créatures / Creatures (9)
-
-<img src="../assets/textures/creatures/demon_commandant.png" alt="demon_commandant" width="80" height="80" /> `demon_commandant`  
-<img src="../assets/textures/creatures/explosive_shield.png" alt="explosive_shield" width="80" height="80" /> `explosive_shield`  
-<img src="../assets/textures/creatures/goule.png" alt="goule" width="80" height="80" /> `goule`  
-<img src="../assets/textures/creatures/illageois_demi_squelette.png" alt="illageois_demi_squelette" width="80" height="80" /> `illageois_demi_squelette`  
-<img src="../assets/textures/creatures/illageois_gueri.png" alt="illageois_gueri" width="80" height="80" /> `illageois_gueri`  
-<img src="../assets/textures/creatures/illageois_zombifie.png" alt="illageois_zombifie" width="80" height="80" /> `illageois_zombifie`  
-<img src="../assets/textures/creatures/maitre_creeper.png" alt="maitre_creeper" width="80" height="80" /> `maitre_creeper`  
-<img src="../assets/textures/creatures/maitre_des_zombies.png" alt="maitre_des_zombies" width="80" height="80" /> `maitre_des_zombies`  
-<img src="../assets/textures/creatures/maitre_squelette.png" alt="maitre_squelette" width="80" height="80" /> `maitre_squelette`  
+Gameplay is documented without showing the creatures themselves: [Material Golems](Material-Golems-EN.md) · [Companions and Creatures](Companions-and-Creatures-EN.md).
 
 ## Objets / Items (31)
 
@@ -86,3 +66,5 @@ The complete set of **16 original named files** remains in the repository: [`gol
 <img src="../assets/textures/blocks/skeleton_trophy.png" alt="skeleton_trophy" width="80" height="80" /> `skeleton_trophy`  
 <img src="../assets/textures/blocks/stripped_golden_log.png" alt="stripped_golden_log" width="80" height="80" /> `stripped_golden_log`  
 <img src="../assets/textures/blocks/stripped_golden_log_top.png" alt="stripped_golden_log_top" width="80" height="80" /> `stripped_golden_log_top`
+
+[Wiki home](../README.md)

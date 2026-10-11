@@ -6,7 +6,15 @@
 
 **Realms Reforged** is a broad Minecraft expansion focused on material golems, companions and cured Illagers, new professions, enemy factions, boss encounters, bounty hunts, structures, advanced equipment, golden forests and 72 custom enchantments. The project is called **Realms Reforged on CurseForge**, while the distributed JAR uses the internal name `golems-materiaux` (`golems_materiaux` mod id) and includes a `golems_companions` module.
 
-> **Golem artwork note:** the four base PNGs bundled in the **audited 1.13.1 / 26.x JAR** are byte-for-byte identical, as are the corresponding crack overlays at each damage level. The previously displayed four previews therefore did **not** show distinct material skins. See the [texture verification](docs/Material-Golems-EN.md#texture-verification--important). The appearance in-game and other JAR releases still require verification.
+> **No creature appearance spoilers:** this wiki covers golem abilities, companions, bosses and their mechanics without publishing their model previews or texture layouts. The author will reveal screenshots on CurseForge.
+
+## 🎮 A first survival journey
+
+Start by building a safer settlement: natural golems gain new material variants as a village develops, while cured Illagers can become allies with equipment and orders. Venture out to take bounty contracts, unlock enchantments, find golden forests and challenge dangerous creatures and the three Masters.
+
+The guide explains how these additions change gameplay **without revealing the models or textures of custom creatures**.
+
+[Getting started](docs/Getting-Started-EN.md) · [Golem abilities](docs/Material-Golems-EN.md) · [Companions and enemies](docs/Companions-and-Creatures-EN.md) · [Crafting](docs/Recipes-EN.md)
 
 ## 📖 Main wiki sections
 
@@ -23,7 +31,7 @@
 | 🛠️ [44 complete recipes](docs/Recipes-EN.md) | Materials, crafting patterns, smithing and furnace recipes |
 | 📦 [Items & blocks](docs/Items-index-EN.md) | Official translated names and registry IDs |
 | 🧪 [Compatibility changes](docs/Vanilla-overrides-EN.md) | 110 vanilla-namespaced recipes and leaf loot tables |
-| 🎨 [82 original textures](docs/Textures-Gallery-EN.md) | Included golem, mob, item and block PNG assets |
+| 🎨 [Items and blocks](docs/Textures-Gallery-EN.md) | 31 item textures and 26 block textures; creature appearances withheld |
 | 🔎 [Version provenance](docs/Version-et-provenance.md) | Exact source JAR and nested Fabric modules |
 | 🧾 [Technical audit (FR)](docs/AUDIT-technique-FR.md) | Method, static validation and known limitations |
 
@@ -38,7 +46,7 @@
 
 ## 🧾 Evidence and limitations
 
-Every one of the 72 enchantments and 44 custom recipes is traceable to the JAR: see [machine-readable enchantment inventory](inventory/enchantments-verified-from-jar.json) and [recipe inventory](inventory/recipes-verified-from-jar.json). Some effects are implemented in Java rather than the enchantment JSON. **Static extraction is not proof of in-game balance, multiplayer stability, loot probabilities or mod compatibility.** No original source code or JAR binary is republished here; the PNG files come directly from the supplied mod assets.
+Every one of the 72 enchantments and 44 custom recipes is traceable to the JAR: see [machine-readable enchantment inventory](inventory/enchantments-verified-from-jar.json) and [recipe inventory](inventory/recipes-verified-from-jar.json). Some effects are implemented in Java rather than the enchantment JSON. **Static extraction is not proof of in-game balance, multiplayer stability, loot probabilities or mod compatibility.** No original source code or JAR binary is republished here; illustrative PNGs are limited to the mod's blocks and items; no custom creature skins are republished.
 
 ## 📢 For CurseForge visitors
 

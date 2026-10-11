@@ -1,28 +1,23 @@
-# Golems de matériaux
+# Les golems de matériaux — capacités et fonctionnement
 
-Le mod comporte quatre variantes de golems de fer : **or, émeraude, diamant et Netherite**. Le JAR 1.13.1 / 26.x analysé fournit **16 chemins de textures** (une base et trois stades de fissures par matériau). **Attention : ces 16 fichiers ne contiennent que quatre images différentes**, répétées sous les quatre noms de matériaux. Cette observation concerne le JAR fourni, pas nécessairement tous les autres JAR du projet.
+**Or, émeraude, diamant et Netherite** : Realms Reforged ajoute quatre variantes de golems, chacune avec des capacités propres. Leur rôle est expliqué ici comme dans un véritable guide Minecraft, sans montrer leurs textures ni leur apparence avant les photographies publiées par l'auteur.
 
-Contrairement à un ajout d'entités séparées, ces variantes restent des `minecraft:iron_golem` distingués par des tags et des équipes. Cette particularité est confirmée par le fichier `INSTALLATION.md` embarqué dans l'archive.
+Les variantes utilisent les entités vanilla `minecraft:iron_golem`, différenciées par les tags et les équipes du mod. Les données détaillées ci-dessous concernent le JAR **1.13.1 / Minecraft 26.x** examiné : le fonctionnement exact d'une autre compilation doit être vérifié séparément.
 
-## Textures — vérification des fichiers du JAR
+## Découvrir leurs capacités
 
-⚠️ **L’ancienne rangée de quatre textures distinctes était trompeuse.** Nous avons comparé les fichiers PNG extraits du **JAR 1.13.1 pour 26.1–26.3** :
-
-| Fichiers dans `assets/golems_materiaux/textures/entity/golem/` | Résultat |
+| Variante | Particularité principale |
 |---|---|
-| `gold.png`, `emerald.png`, `diamond.png`, `netherite.png` | **Quatre fichiers strictement identiques**, 128 × 128 pixels |
-| `{matériau}_crackiness_low.png` | Identiques pour les quatre matériaux |
-| `{matériau}_crackiness_medium.png` | Identiques pour les quatre matériaux |
-| `{matériau}_crackiness_high.png` | Identiques pour les quatre matériaux |
+| **Or** | Soutien offensif plus rapide, avec bonus de vitesse et de force |
+| **Émeraude** | Soin des villageois et des golems proches |
+| **Diamant** | Protection et résistance renforcées |
+| **Netherite** | Résistance élevée et puissants effets de combat, au prix d'une vitesse réduite |
 
-La classe `fr/golems/client/GolemTextures.class` sélectionne pourtant le chemin d’une variante à partir des équipes `dgp_gold`, `dgp_emerald`, `dgp_diamond` et `dgp_netherite`. **Des chemins de textures différents ne garantissent pas des pixels différents.** Cette inspection statique ne prouve pas l’apparence finale en jeu, ni celle des JAR **1.21.x** non inspectés.
+**Choisissez votre approche :** privilégiez la protection d'un village avec un golem émeraude, ou préparez de lourds affrontements avec les variantes avancées. Les seuils précis d'apparition et les valeurs des effets figurent dans les tableaux ci-dessous.
 
-**Texture témoin réellement intégrée à ce JAR** (une seule représentation, et **pas** quatre visuels prétendument différents) :
+## Apparence : à découvrir dans Minecraft
 
-![PNG de base commun aux quatre golems dans ce JAR](../assets/textures/golems/gold.png)
-
-Pour obtenir quatre aperçus fidèles, il faudra **récupérer les vrais PNG propres à chaque golem** depuis une autre distribution valide ou les ressources source, puis confirmer leur rendu en jeu. Les fichiers du JAR original sont conservés sans modification dans ce wiki. [Galerie et noms de fichiers](Textures-Gallery.md) · [Empreintes SHA-256 des 16 PNG](../inventory/golem-texture-sha256.json).
-
+Aucune texture, UV, skin ou représentation des golems n'est distribuée par ce wiki. Les ressources originales restent dans les JAR du jeu. Le créateur ajoutera lui-même des photos aux [publications CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged) lorsqu'il souhaitera dévoiler leur apparence.
 
 ## Fonctionnement et données
 

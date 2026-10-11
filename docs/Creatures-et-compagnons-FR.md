@@ -1,17 +1,17 @@
-# Créatures, boss et compagnons
+# Créatures, boss et compagnons — découvrez leurs pouvoirs
 
-Le module Java compagnon `golems_companions` est intégré dans le JAR. Les entités listées ci-dessous apparaissent explicitement dans les routines d'enregistrement (`CustomEntities`).
+Realms Reforged apporte des **Illageois guérissables**, des alliés et des compagnons personnalisables, ainsi que de nouveaux ennemis, mini-boss et trois Maîtres. Le mod intègre le module `golems_companions`, dont les enregistrements d'entités sont présents dans les données examinées.
 
-| Identifiant | Texture originale / information |
+## Les rencontres à découvrir
+
+| Famille | Ce qui change dans vos parties |
 |---|---|
-| `illageois_demi_squelette` | ![illageois_demi_squelette](../assets/textures/creatures/illageois_demi_squelette.png) |
-| `illageois_zombifie` | ![illageois_zombifie](../assets/textures/creatures/illageois_zombifie.png) |
-| `demon_commandant` | ![demon_commandant](../assets/textures/creatures/demon_commandant.png) |
-| `goule` | ![goule](../assets/textures/creatures/goule.png) |
-| `illageois_gueri` | ![illageois_gueri](../assets/textures/creatures/illageois_gueri.png) |
-| `maitre_squelette` | ![maitre_squelette](../assets/textures/creatures/maitre_squelette.png) |
-| `maitre_des_zombies` | ![maitre_des_zombies](../assets/textures/creatures/maitre_des_zombies.png) |
-| `maitre_creeper` | ![maitre_creeper](../assets/textures/creatures/maitre_creeper.png) |
+| **Illageois infectés et guéris** | Possibilité de soins et de conversion en alliés, selon les conditions du mod |
+| **Compagnons et gardes** | Équipements, ordres de suivi, garde et organisation en groupe |
+| **Goules et nouveaux adversaires** | De nouvelles menaces de survie et rencontres spéciales |
+| **Les trois Maîtres** | Affrontements contre le Maître squelette, le Maître des zombies et le Maître creeper |
+
+**Les apparences ne sont pas montrées.** Le créateur choisira les photos de ces créatures à publier sur [CurseForge](https://www.curseforge.com/minecraft/mc-mods/realms-reforged). Les textures et modèles des créatures ne figurent plus dans ce wiki.
 
 ## Sous-systèmes présents
 
