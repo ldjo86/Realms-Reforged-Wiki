@@ -27,7 +27,7 @@
 
 ## Pourquoi cette prudence ? / Why this distinction matters
 
-Le **JAR original 26.x** contient quatre familles de textures de golems mais les PNG des quatre matériaux sont **identiques par stade**. Cela n'autorise pas à affirmer que les golems paraissent identiques dans **toutes les versions**, ni que le JAR 1.21.x dispose des mêmes images. Voir [l'audit des textures FR](Golems-FR.md#textures--vérification-des-fichiers-du-jar) / [EN](Material-Golems-EN.md#texture-verification--important).
+Le **JAR original 26.x** contient quatre familles de textures de golems mais les PNG des quatre matériaux sont **identiques par stade**. Cela n'autorise pas à affirmer que les golems paraissent identiques dans **toutes les versions**, ni que le JAR 1.21.x dispose des mêmes images. L'analyse reste consignée dans les inventaires techniques ; les **skins ne sont plus publiés** dans ce dépôt. Voir [les pouvoirs des golems en français](Golems-FR.md) / [les capacités en anglais](Material-Golems-EN.md).
 
 Aucune analyse de JAR ne remplace des essais en jeu pour chaque version de Minecraft. / A static JAR analysis is not a runtime compatibility certification.
 
